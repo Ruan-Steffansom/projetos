@@ -1,0 +1,438 @@
+/* CONFIGURAÇÃO UNIVERSAL 
+***************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-family: "Berkshire Swash";
+}
+
+h2,h3,p,span,a {
+    font-family: "josefin sans";
+}
+
+
+
+/* CABEÇALHO 
+*****************************/
+.icone-rs {
+    background: #FF8800;
+    line-height: 40px;
+    padding: 5px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+}
+
+.icone-rs img {
+    width: 20px;
+}
+
+#cabecalho {
+    width: 100%;
+    height: 110px;
+}
+
+.logo img {
+    float: left;
+    margin: 16px 30px;
+}
+
+.navegacao ul {
+    margin-left: 700px;
+    list-style: none;
+    line-height: 80px;
+}
+
+.navegacao ul li {
+    font-weight: bold;
+    float: left;
+    list-style: none;
+}
+
+.navegacao ul li a {
+    text-decoration: none;
+    padding-right: 55px;
+    color: black;
+    font-size: 16px;
+}
+
+.navegacao ul li a:hover {
+    color: #FF8800;
+}
+
+.navegacao ul li a.contato {
+    background-color: #f6820a;
+    color: #ffffff;
+    padding: 20px 35px;
+    border-radius: 30px;
+}
+
+
+/* APRESENTAÇÃO 
+*******************/
+.apresentacao {
+    width: 100%;
+    height: 520px;
+    background: rgba(0, 0, 20, 0.3) url(../imagens/pizzaria-hero-fundo01.jpg) no-repeat center;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.apresentacao h1 {
+    font-size: 100px;
+    color: #ffffff;
+    line-height: 140px;
+}
+
+.apresentacao h2 {
+    font-size: 35px;
+    color: #FF8800;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+.apresentacao span {
+    font-size: 18px;
+    font-style: italic;
+    color: #ffffff;
+    line-height: 26px;
+}
+
+
+
+/* SEÇÃO BEM-VINDO 
+*******************/
+.secao-bem-vindo {
+    height: 600px;
+    background: rgba(255, 255, 255, 0.6)  url(../imagens/folha-fundo-02.jpg) no-repeat fixed center center ;
+    background-blend-mode: lighten;
+    background-size: contain;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.bem-vindo {
+    width: 376px;
+    height: 500px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.bem-vindo span {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 33px;
+}
+
+.bem-vindo h1 {
+    font-size: 70px;
+    line-height: 90px;
+    margin: 5px 0 10px 0;
+    color: #C66300;
+}
+
+.bem-vindo h2 {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+
+.bem-vindo p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+
+.botao-mais-sobre-nos  {
+    background: #000000;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 15px 38px;
+    border: none;
+    border-radius: 50px;
+}
+
+.botao-mais-sobre-nos:hover {
+    background: #f6820a;
+    transition: 0.2s;
+}
+
+.pizza-tempero {
+    width: 376px;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.pizza-tempero img {
+    width: 370px;
+    height: 500px;
+}
+
+.casal-comendo {
+    width: 330px;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.casal-comendo img {
+    width: 330px;
+    height: 500px;
+}
+
+/* SEÇÃO CARDÁPIO  
+**********************/
+section.cardapio {
+    background: #FFF4E3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.titulo-cardapio {
+    text-align: center;
+    margin: 30px;
+}
+
+.titulo-cardapio h1 {
+    font-size: 50px;
+    color: #c66300;
+    margin-bottom: 15px;
+}
+
+.titulo-cardapio h3 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.pratos-principais {
+    width: 78%;
+    height: 221px;
+    margin: 30px auto;
+}
+
+.pratos li {
+    height: 125px;
+    width: 450px;
+}
+
+.pratos li  img {
+    float: left;
+    margin-right: 8px;
+}
+
+.pratos li h3 {
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.pratos li p {
+    font-weight: 600;
+    display: inline;
+}
+
+.pratos span {
+    font-size: 28px;
+    font-weight: 600;
+    color: #C66300;
+    float: right;
+    margin-top: -35px;
+    z-index: 0;
+}
+
+.prato02,.prato04 {
+    margin-left: 107px;
+}
+
+.prato01,.prato02,.prato03,.prato04 {
+    float: left;
+}
+
+a.botao-cardapio {
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    background: #f6820a;
+    color: #ffffff;
+    display: block;
+    padding: 15px  80px;
+    margin: 50px auto;
+    border-radius: 30px;
+}
+
+/* SEÇÃO DE NOTÍCIAS 
+***********************/
+.conteudo-noticias {
+    background: rgba(255, 255, 255, 0.6) url(../imagens/folha-fundo-02.jpg) no-repeat fixed center center;
+    background-blend-mode: lighten;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudo-noticias img {
+    margin: 65px 0 120px 150px;
+}
+
+.progamacao-quarta {
+    text-align: center;
+    margin: auto;
+}
+
+.progamacao-quarta span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.progamacao-quarta h1 {
+    color: #C66300;
+    font-size: 40px;
+    margin: 18px;
+}
+
+.progamacao-quarta h3 {
+    font-size: 27px;
+    font-weight: 800;
+    margin: 30px 0 45px;
+}
+
+.progamacao-quarta a {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #FF8800;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+/* DEPOIMENTOS 
+******************/
+.conteudo-depoimento {
+    width: 100%;
+    float: left;
+}
+
+.left {
+    float: left;
+    margin-left: 150px;
+}
+
+.right {
+    float: right;
+    margin-right: 150px;
+}
+
+.inicio-depoimento {
+    padding: 20px 0 15px 100px;
+    margin-bottom: 120px;
+}
+
+.inicio-depoimento h1 {
+    padding: 15px 0 0 80px;
+    color: #C66300;
+    font-size: 25px;
+}
+
+.depoimento {
+    text-align: center;
+    width: 500px;
+    margin-bottom: 90px;
+}
+
+.depoimento img {
+    border-radius: 50%;
+}
+
+
+.depoimento p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.nome {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+/* RODAPÉ 
+**************************/
+.rodape {
+    clear: both;
+    background: rgba(0, 0, 0, 0.7) url(../imagens/pizzaria-hero-fundo02.jpg) no-repeat center center;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape img {
+    width: 80px;
+    margin-bottom: 40px;
+}
+
+.rodape h1 {
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.rodape p {
+    font-size: 95px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.copy {
+    background: #313131;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 2px ;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #ffffff;
+}
+
+.copy a {
+    color: #FF8800;
+}
