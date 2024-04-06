@@ -44,6 +44,34 @@ nav.navbar-transparente {
     text-align: center;
 }
 
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo {
+    background: #7c25f8;
+}
+
+.btn-roxo:hover {
+    background: #6207E3;
+    color: white;
+}
+
+.btn-branco {
+    border: 2px solid white;
+}
+
+.btn-branco:hover {
+    background-color: white;
+    color: black;
+}
+
 /* Tipografia 
 ******************************/
 h1 {
@@ -56,13 +84,21 @@ h1 {
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98PX) {
-
+    .btn-custom {
+        margin: 10px 15px;
+        font-size: 18px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     h1 {
         font-size: 3em;
+    }
+    
+    .btn-custom {
+        margin: 10px 15px;
+        font-size: 18px;
     }
 }
 
