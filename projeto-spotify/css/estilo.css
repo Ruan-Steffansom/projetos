@@ -88,6 +88,10 @@ h1 {
         margin: 10px 15px;
         font-size: 18px;
     }
+
+    .container {
+        margin: 0 20px 0 20px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -102,7 +106,7 @@ h1 {
     }
 }
 
-//* Medium devices (tablets, 768px an up) */
+/* Medium devices (tablets, 768px an up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1 {
         font-size: 4em;
