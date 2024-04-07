@@ -2,6 +2,7 @@
 ***************************/
 html, body, #home {
     height: 100%;
+    overflow-x: hidden; /* esconde a barra de rolagem horizontal */
 }
 
 body {
@@ -74,17 +75,40 @@ nav.navbar-transparente {
 
 /* Estrutura conteúdos 
 *******************************/
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #servicos {
     background: white;
-    padding: 20px 0 ;
+}
+
+#recursos {
+    color: white;
 }
 
 #servicos h2, h3 {
     color: #7C25F8;
 }
 
+#recursos h2, {
+    color: white;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
 .albuns {
     padding: 10px 0;
+}
+
+.rotacionar {
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+    padding-left: 80px;
 }
 
 /* Tipografia 
@@ -114,9 +138,16 @@ h3 {
         margin: 10px 15px;
         font-size: 18px;
     }
-
+    
     .container {
         margin: 0 20px 0 20px;
+    }
+    
+    .rotacionar {
+        width: 320px;
+        transform: rotate(0deg);
+        padding: 0px;
+        margin: auto;
     }
 }
 
