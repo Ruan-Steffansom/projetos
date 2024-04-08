@@ -92,7 +92,7 @@ nav.navbar-transparente {
     color: #7C25F8;
 }
 
-#recursos h2, {
+#recursos h2 {
     color: white;
 }
 
@@ -109,6 +109,38 @@ nav.navbar-transparente {
     -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
     transform: rotate(30deg);
     padding-left: 80px;
+}
+
+/* Rodapé 
+******************************/
+footer {
+    background: #000000;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+}
+
+footer ul {
+list-style: none;
+}
+
+footer ul li {
+    margin: 0 5px;
 }
 
 /* Tipografia 
@@ -136,7 +168,7 @@ h3 {
 @media (max-width: 575.98PX) {
     .btn-custom {
         margin: 10px 15px;
-        font-size: 18px;
+        font-size: 1em;
     }
     
     .container {
@@ -149,6 +181,18 @@ h3 {
         padding: 0px;
         margin: auto;
     }
+    
+    .logo-rodape, .company, .comunidades {
+        margin-bottom: 20px;
+    }
+
+    .albuns {
+        width: 350px;
+    }
+
+    .img1 {
+        margin-bottom: 20px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -159,7 +203,17 @@ h3 {
     
     .btn-custom {
         margin: 10px 15px;
-        font-size: 18px;
+        font-size: 1em;
+    }
+
+    .logo-rodape {
+        margin-bottom: 15px;
+        
+    }
+
+    .company, .comunidades, .links-uteis {
+        margin: 15px;
+        width: 150px;
     }
 }
 
@@ -167,6 +221,14 @@ h3 {
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1 {
         font-size: 4em;
+    }
+
+    .logo-rodape {
+        margin-left: -30px;
+    }
+
+    .redes-sociais img {
+        width: 45px;
     }
 }
 
