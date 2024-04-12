@@ -8,4 +8,4 @@
 
 <a href="https://ruan-steffansom.github.io/projetos-p/projeto-finans-bootstrap4/">Acessar o projeto Finans</a>
 
-<a href="https://ruan-steffansom.github.io/projetos-p/picos-belem/">Projeto em progresso</a>
+<a href="https://ruan-steffansom.github.io/projetos-p/picos-belem/">Projeto "picos de skate" em progresso</a>
