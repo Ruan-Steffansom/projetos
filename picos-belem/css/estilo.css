@@ -84,6 +84,8 @@ main {
 .img-pista {
     border-radius: 10px;
     margin-bottom: 10px;
+    width: 364px;
+    height: 242px;
 }
 
 .descricao-pistas {
