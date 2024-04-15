@@ -165,6 +165,15 @@ main {
     width: 3%;
 }
 
+.control-pistas a {
+    width: 10%;
+    color: black;
+}
+
+.btn-localizacao {
+    width: 100% !important;
+}
+
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98PX) {
     h1 {
