@@ -199,11 +199,6 @@ h1 {
         font-size: 15px;
         padding: 8px;
     }
-
-    .voltar-ao-topo a i {
-        left: 16em;
-        bottom: 1em;
-    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -221,12 +216,6 @@ h1 {
         width: 30%;
         font-size: 13px;
         padding: 8px;
-    }
-
-    
-    .voltar-ao-topo a i {
-        left: 17em;
-        bottom: 1em;
     }
 }
 
@@ -249,7 +238,7 @@ h1 {
     }
 
     .voltar-ao-topo a i {
-        left: 30em;
+        left: 38em;
         bottom: 1em;
     }
 }
@@ -258,7 +247,7 @@ h1 {
 @media (min-width: 992px) and (max-width: 1199.98px) {
     
     .voltar-ao-topo a i {
-        left: 45em;
+        left: 47em;
         bottom: 1em;
     }
 }
@@ -266,7 +255,7 @@ h1 {
 /* Extra large devices (larde desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .voltar-ao-topo a i {
-        left: 52em;
+        left: 55em;
         bottom: 1em;
     }
 }
