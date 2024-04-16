@@ -1,23 +1,33 @@
+
+/* GERAIS 
+**************************/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* NAVEGAÇÃO
-*****************************/
+
 html, body, #home {
     height: 100%;
     overflow-x: hidden;
 }
 
+
 body {
     background: rgba(0, 0, 0, 0.6) url(../imagens/capa.webp) no-repeat center center fixed;
     background-blend-mode: darken;
     background-size: cover;
-    }
+}
 
-nav.navbar-transparente {
-    background: rgba(0, 0, 0, 0.7);
+main {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+/* NAVEGAÇÃO
+*****************************/
+.logo {
+    filter: drop-shadow(0px 0px 8px rgb(214, 11, 221));
 }
 
 nav ul li a  {
@@ -37,22 +47,28 @@ nav ul li a:hover {
     transition-duration: 0.8s;
 }
 
-nav a {
-    color: rgba(236, 35, 226, 0.842);
-}
-
-nav a:hover {
-    color: green;
-    filter: drop-shadow(0px 0px 10px rgb(196, 2, 202));
-    transition-duration: 0.8s;
-}
-
 .divisor {
     width: 1px;
     background: white;
     margin: 12px 10px;
 }
 
+nav .whatsapp {
+    color: rgba(236, 35, 226, 0.842);
+}
+
+nav .whatsapp:hover {
+    color: green;
+    filter: drop-shadow(0px 0px 10px rgb(255, 0, 106));
+    transition-duration: 0.8s;
+}
+
+nav.navbar-transparente {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* CAPA
+****************************/
 h1 {
     font-size: 5em;
     font-weight: 900;
@@ -62,11 +78,33 @@ h1 {
     filter: drop-shadow(0px 0px 10px rgba(195, 2, 202, 0.781));
 }
 
-main {
-    margin-bottom: 30px;
-    width: 100%;
+.capa {
+    text-align: center;
 }
 
+.btn-custon {
+    background: white;
+    color: black;
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 40px;
+    filter: drop-shadow(0px 0px 6px rgb(196, 2, 202));
+}
+
+.btn-custon:hover {
+    background: rgb(7, 7, 7);
+    color: #9204AE;
+    filter: drop-shadow(0px 0px 10px rgb(196, 2, 202));
+    transition-duration: 0.5s;
+}
+
+.control-custon {
+    width: 5%;
+}
+
+/* CONTEÚDO PISTAS
+*************************************/
 .pistas {
     background: black;
     padding-top: 20px;
@@ -79,19 +117,6 @@ main {
     text-align: center;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-}
-
-.img-pista {
-    border-radius: 10px;
-    margin-bottom: 10px;
-    width: 364px;
-    height: 242px;
-}
-
-.descricao-pistas {
-    padding: 8px;
-    border-radius: 10px;
-    color: aliceblue;
 }
 
 .descricao-pistas h2 {
@@ -115,8 +140,17 @@ main {
     
 }
 
-.capa {
-    text-align: center;
+.descricao-pistas {
+    padding: 8px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.img-pista {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 364px;
+    height: 242px;
 }
 
 .text-white {
@@ -126,44 +160,11 @@ main {
     padding: 5px 8px;
 }
 
-.container-belem {
-    border-bottom: 1px solid #9204AE;
+.container-belem, .container-ananindeua {
+    border-bottom: 1px solid #a51fc0a2;
     padding-bottom: 40px;
 }
 
-.container-ananindeua {
-    border-bottom: 1px solid #9204AE;
-    padding-bottom: 40px;
-}
-
-.voltar-ao-topo a i {
-    color: #fff9f973;
-    position: absolute;
-    left: 54em;
-    bottom: 2em;
-    z-index: 2;
-}
-
-.btn-custon {
-    background: white;
-    color: black;
-    font-weight: 700;
-    border: none;
-    border-radius: 30px;
-    padding: 10px 40px;
-    filter: drop-shadow(0px 0px 6px rgb(196, 2, 202));
-}
-
-.btn-custon:hover {
-    background: rgb(7, 7, 7);
-    color: #9204AE;
-    filter: drop-shadow(0px 0px 10px rgb(196, 2, 202));
-    transition-duration: 0.5s;
-}
-
-.control-custon {
-    width: 3%;
-}
 
 .control-pistas a {
     width: 10%;
@@ -174,34 +175,98 @@ main {
     width: 100% !important;
 }
 
+.voltar-ao-topo a i {
+    color: #fff9f973;
+    position: absolute;
+    left: 54em;
+    bottom: 2em;
+    z-index: 2;
+}
+
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98PX) {
     h1 {
-        font-size: 3.2em;
+        font-size: 2em;
         font-weight: 900;
         letter-spacing: -0.05em;
         margin-bottom: 50px;
         color: white;
         filter: drop-shadow(0px 0px 10px rgba(195, 2, 202, 0.781));
     }
+
+    .btn-custon {
+        width: 60%;
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    .voltar-ao-topo a i {
+        left: 16em;
+        bottom: 1em;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 2em;
+        font-weight: 900;
+        letter-spacing: -0.05em;
+        margin-bottom: 50px;
+        color: white;
+        filter: drop-shadow(0px 0px 10px rgba(195, 2, 202, 0.781));
+    }
     
+    .btn-custon {
+        width: 30%;
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    
+    .voltar-ao-topo a i {
+        left: 17em;
+        bottom: 1em;
+    }
 }
 
 /* Medium devices (tablets, 768px an up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        font-size: 3em;
+        font-weight: 900;
+        letter-spacing: -0.05em;
+        margin-bottom: 50px;
+        color: white;
+        filter: drop-shadow(0px 0px 10px rgba(195, 2, 202, 0.781));
+    }
+
     
+    .btn-custon {
+        width: 30%;
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    .voltar-ao-topo a i {
+        left: 30em;
+        bottom: 1em;
+    }
 }
 
 /* Larde devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     
+    .voltar-ao-topo a i {
+        left: 45em;
+        bottom: 1em;
+    }
 }
 
 /* Extra large devices (larde desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    
+    .voltar-ao-topo a i {
+        left: 52em;
+        bottom: 1em;
+    }
 }
