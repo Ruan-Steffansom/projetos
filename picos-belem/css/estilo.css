@@ -20,7 +20,6 @@ body {
 }
 
 main {
-    margin-bottom: 30px;
     width: 100%;
 }
 
@@ -104,6 +103,39 @@ h1 {
     width: 5%;
 }
 
+/* CIDADES
+*********************************/
+.cidades{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
+}
+
+.pistas-belem img, .pistas-ananindeua img {
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+.legenda {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    padding: 8px 0 20px 0 ;
+}
+
+.legenda h3 {
+    font-size: 1.3em;
+}
+
+.legenda a {
+    color: white;
+    font-weight: bold;
+    padding: 5px 40px;
+    border-radius: 20px;
+}
+
+
+
 /* CONTEÚDO PISTAS
 *************************************/
 .pistas {
@@ -162,7 +194,6 @@ h1 {
 }
 
 .container-belem, .container-ananindeua {
-    border-bottom: 1px solid #a51fc0a2;
     padding-bottom: 40px;
 }
 
@@ -176,9 +207,40 @@ h1 {
     width: 100% !important;
 }
 
+/* PÁGINA BELÉM ANANINDEUA
+*****************************/
+.pagina-belem {
+    padding-top: 58px;
+}
+
+.pagina-ananindeua {
+    padding-top: 35px;
+}
+
+.voltar-pagina-inicial {
+    font-size: 0.8em;
+    font-weight: 600;
+    color: white;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.voltar-pagina-inicial:hover {
+    color: white;
+    font-weight: 600;
+    filter: drop-shadow(0px 0px 6px rgb(196, 2, 202));
+}
+
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98PX) {
+    body {
+    background: rgba(0, 0, 0, 0.6) url(../imagens/capa.webp) no-repeat center center fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    }
+
     h1 {
         font-size: 2em;
         font-weight: 900;
@@ -193,11 +255,28 @@ h1 {
         font-size: 15px;
         padding: 8px;
     }
+
+    .pistas-belem img, .pistas-ananindeua img {
+        border-radius: 20px;
+        width: 400px;
+        height: 270px;
+    }
+
+    .pistas-belem {
+        margin-bottom: 20px;
+    }
+
+    .legenda {
+        padding: 8px 0 20px 0 ;
+    }
     
-    body {
-    background: rgba(0, 0, 0, 0.6) url(../imagens/capa.webp) no-repeat center center fixed;
-    background-blend-mode: darken;
-    background-size: cover;
+    .legenda h3 {
+        font-size: 1em;
+    }
+    
+    .legenda a {
+        font-size: 0.8em;
+        padding: 2px 20px;
     }
 }
 
@@ -217,6 +296,16 @@ h1 {
         font-size: 13px;
         padding: 8px;
     }
+    
+    .pistas-belem {
+        margin-bottom: 20px;
+    }
+    
+    .pistas-belem img, .pistas-ananindeua img {
+        border-radius: 20px;
+        width: 400px;
+        height: 270px;
+    }
 }
 
 /* Medium devices (tablets, 768px an up) */
@@ -235,6 +324,12 @@ h1 {
         width: 30%;
         font-size: 15px;
         padding: 8px;
+    }
+    
+    .pistas-belem img, .pistas-ananindeua img {
+        border-radius: 20px;
+        width: 450px;
+        height: 300px;
     }
 }
 
