@@ -23,6 +23,15 @@ main {
     width: 100%;
 }
 
+@font-face {
+    font-family: "Sedgwick Ave Display";
+    src: url(../fontes/SedgwickAveDisplay-Regular.ttf);
+}
+
+h1, h2 {
+    font-family: "Sedgwick Ave Display";
+}
+
 /* NAVEGAÇÃO
 *****************************/
 .logo {
