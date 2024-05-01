@@ -287,6 +287,15 @@ h1 {
         font-size: 0.8em;
         padding: 2px 20px;
     }
+
+    .pista-marex, .pista-dorothy,
+    .pista-menendro-chato, .pista-curucamba,
+    .pista-julia-seffer, .pista-maguari {
+        background-color: black;
+        position: sticky;
+        top: 70px;
+    }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
