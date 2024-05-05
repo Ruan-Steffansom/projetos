@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minas Rodas - Bio</title>
+    <title>Minas Rodas</title>
 
     <link rel="shortcut icon" href="imagens/Logo-Minas-Rodas-03.png" type="image/x-icon">
     <!-- ICONES -->
@@ -23,15 +23,6 @@
 
 </head>
 
-<style>
-        
-    @font-face {
-        font-family: "Montserrat";
-        src: url(Montserrat/Montserrat-VariableFont_wght.ttf);
-    }
-
-</style>
-
 <body>
 
     <header id="cabecalho"><!-- INICIO CABEÇALHO -->
@@ -43,27 +34,60 @@
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit Sequi eveniet esse architecto.
             </p>
-            <a class="botao-whatsapp btn" href="#">Clique aqui</a>
+            <a class="botao-whatsapp btn" href="#">
+                <i class="fa-brands fa-whatsapp mr-2"></i>Clique aqui
+            </a>
         </div>
     </header><!-- /FIM CABEÇALHO -->
 
     <section class="secao-servicos"><!-- INICIO SEÇÃO SERVIÇOS-->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 t-servicos">
-                    <h1>
-                        O que você precisa ?
-                    </h1>
-                </div>
-                <div class="col-md-4 servicos">
-                    <img src="imagens/foto-reparo-1.jpg" width="508" height="359" alt="foto reparo de roda">
-                    <h2>Reparo</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsum vero rerum quos vel dolore quae corrupti nesciunt.</p>
-                    <a class="botao-whatsapp btn" href="#">Clique aqui</a>
-                </div>
-            </div>
-        </div>
+            <div class="servicos"><!--SERVIÇOS-->
+                <h1>O que você precisa?</h1>
+                
+                <div class="container container-fluid"><!--CONTAINER-->
+                    <div class="row"><!--ROW-->
+                        <div class="col-md-12 d-flex cards-servicos"><!--CARDS SERVIÇOS-->
+
+                            <div class="col-md-4  cards"><!--CARD REPARO-->
+                                <img src="imagens/foto-reparo-1.jpg" alt="" class="img-fluid">
+                                <h2>Reparo</h2>
+                                <p class="text-white text-center mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit placeat ea repudiandae, Fugit placeat ea</p>
+                                <a href="#" class="botao-whatsapp btn">
+                                    <i class="fa-brands fa-whatsapp mr-2"></i> Clique aqui
+                                </a>
+                            </div><!--/CARD REPARO-->
+
+                            <div class="col-md-4 cards"><!--CARD RODAS-->
+                                <img src="imagens/foto-rodas.jpg" alt="" class="img-fluid">
+                                <h2>Rodas</h2>
+                                <p class="text-white text-center mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit placeat ea repudiandae, Fugit placeat ea</p>
+                                <a class="botao-whatsapp btn" href="#">
+                                    <i class="fa-brands fa-whatsapp mr-2"></i>Clique aqui
+                                </a>
+                            </div><!--/CARD RODAS-->
+
+                            <div class="col-md-4 cards"><!--CARD PNEUS-->
+                                <img src="imagens/foto-pneus-1.jpg" alt="" class="img-fluid">
+                                <h2>Pneus</h2>
+                                <p class="text-white text-center mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit placeat ea repudiandae, Fugit placeat ea</p>
+                                <a class="botao-whatsapp btn" href="#">
+                                    <i class="fa-brands fa-whatsapp mr-2"></i>Clique aqui
+                                </a>
+                            </div><!--/CARD PNEUS-->
+
+                        </div><!--/CARDS SERVIÇOS-->
+
+                        <p class=" atendimento-servicos text-center m-auto p-4">Você terá um atendimento especializado, e voltado para lhe trazer a melhor solução para o que você procura!</p>
+                    </div><!--ROW-->
+                </div><!--/CONTAINER-->
+            </div><!--/SERVIÇOS-->
     </section><!-- /FIM SEÇÃO SERVIÇOS-->
+
+    <section class="voce-merece">
+        <h1>
+            Você merece!
+        </h1>
+    </section>
 
 </body>
 </html>
