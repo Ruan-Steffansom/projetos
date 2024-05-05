@@ -1,3 +1,6 @@
+
+/*CONFIGURAÇÕES GERAIS
+**************************/
 *{
     margin: 0;
     padding: 0;
@@ -6,205 +9,139 @@
 
 body {
     font-family: "Montserrat";
-    background-color: #ffed00;
-}
-a:link {
-    width: 86px;
-    height: 10px;
-    font-size: 15px;
-    font-weight: 500;
-    padding: 10px 24px 10px 20px;
-    display: inline;
-    text-decoration: none;
-    background-color: #ffed00;
-    color: #181717;
-    border-radius: 3px;
 }
 
-header {
-    border: 1px solid yellow;
-    background: url(../imagens/HB-Fundo-1.jpg) no-repeat center center;
+/*BOTÃO DO WHATSAPP
+************************************/
+a.botao-whatsapp {
+    color: black;
+    background: #ffed00;
+    padding: 12px 24px;
+}
+
+a.botao-whatsapp:hover {
+    color: black;
+}
+
+
+/*INICIO TOPO
+*************************************/
+#cabecalho {
+    background: #ffed00 url(../imagens/HB-Fundo-1.jpg) no-repeat center center;
+    background-size: cover;
     width: 100%;
-    margin: auto 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
-#inicio {
-    margin: 120px 664px 120px 105px;
-    color: #ffffff;
+.inicio-textos {
+    margin-left: 102px;
     padding: 10px;
 }
 
-#inicio img {
-    width: 150px;
+.inicio-textos img {
+    width: 189px;
+    height: 108px;
 }
 
-#inicio h1 {
-    font-size: 47px;
-    font-family: "montserrat";
-    font-weight: 800;
-    font-style: italic;
-    text-transform: uppercase;
-    color: #ffed00;
-    line-height: 48px;
-    margin: 20px 0;
+.inicio-textos h1 {
+        color: #ffed00;
+        font-size: 48px;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-style: italic;
+        margin: 20px 0 0 0;
+    }
+
+.inicio-textos p {
+        color: white;
+        margin-top: 20px;
+    }
+/* FIM TOPO */
+
+/*SEÇÃO SERVIÇOS
+*****************************/
+section.secao-servicos {
+    background: #ffed00;
 }
 
-#inicio p {
-    color: #ffffff;
-    line-height: 20px;
-    margin: 20px 0 30px 0;
-}
-
-main.container {
-    width: 1140px;
-    margin: auto;
+.t-servicos h1 {
     text-align: center;
-}
-
-.secao-servicos {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-}
-
-main .h1servico {
-    font-size: 40px;
-    font-weight: 800;
-    font-style: italic;
-    margin: 50px 0 40px 0;
     text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
 }
 
-main .pservico {
-    font-size: 17px;
-    font-weight: 500;
-    padding: 30px;
-}
-
-section div.servicos {
-    background-color: #333333;
-    width: 359px;
-    height: 508px;
-    border-radius: 12px;
+.servicos {
+    background: #333333;
+    width: 379px;
+    height: 528px;
+    border-radius: 15px;
     padding: 10px;
 }
 
 .servicos img {
-    width: 340px;
-    border-radius: 10px;
-}
-
-div.servicos h2 {
-    color: #ffed00;
-    font-size: 28px;
-    margin: 20px ;
-}
-
-div.servicos p {
-    color: #ffffff;
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 30px;
-}
-
-
-section.voce-merece {
-    background: url(../imagens/fundo.jpg) repeat-y center center ;
-    padding-bottom: 70px;
-
-}
-
-.conteudo {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1140px;
-    margin: auto;
-}
-
-.voce-merece h1 {
-    color: #ffed00;
-    font-size: 40px;
-    font-weight: 800;
-    font-style: italic;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 60px 0 50px 0;
-}
-
-.para-voce {
-    width: 461px;
-    margin-bottom: 10px;
-}
-
-.para-voce h2 {
-    width: 461px;
-    color: #ffed00;
-    font-size: 24px;
-    font-style: italic;
-    text-align: left;
-    line-height: 29px;
-    padding-top: 17px;
-    text-transform: uppercase;
-}
-
-.para-voce span {
-    color: #ffffff;
-    text-align: left;
-    line-height: 25px;
-    margin: 20px 0 35px 0;
-}
-
-.right {
-    margin-left: 180px; 
-}
-
-.alinhamento-icone {
-    display: flex;
-}
-
-
-hr {
-    border: 1px solid #ffed00;
-    margin: 100px 115px;
-}
-
-.area-local {
-    width: 1140px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 17px;
-}
-
-.local-left {
-    width: 560px;
-}
-
-.local-left h1 {
-    text-align: left;
-    padding: 0;
-    margin: 0;
-}
-
-
-.local-left p {
-    color: #ffffff;
-    margin-top: -10;
-    margin: 20px 0 45px 0;
-}
-
-.localizacao {
-    width: 560px;
-    height: 400px;
+    width: 351px;
+    height: 300px;
     border-radius: 15px;
 }
 
+.servicos h2 {
+    color: #ffed00;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    margin: 30px;
+}
 
-.rodape {
-    width: 100%;
-    height: 105px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 135px;
+.servicos p {
+    color: white;
+    text-align: center;
+}
+
+.servicos a {
+    margin: auto;
+}
+
+
+
+/* RESPONSIVIDADSE
+********************************/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98PX) {
+    .inicio-textos img {
+        width: 150px;
+        height: 90px;
+    }
+    
+    .inicio-textos h1 {
+            font-size: 30px;
+            font-weight: 900;
+            text-transform: uppercase;
+            font-style: italic;
+            margin: 20px 0 0 0;
+        }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+/* Medium devices (tablets, 768px an up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+/* Larde devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (larde desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
 }
