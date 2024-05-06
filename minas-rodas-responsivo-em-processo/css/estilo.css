@@ -96,13 +96,9 @@ section.secao-servicos {
     text-align: center;
 }
 
-.cards-servicos {
-    display: flex;
-    gap: 15px;
-}
-
 .cards {
     background: #333333;
+    margin: 5px;
     padding: 10px 10px 20px 10px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -136,7 +132,6 @@ p.atendimento-servicos {
     font-size: 1.3em;
     margin-bottom: 30px;
 }
-
 /*SEÇÃO VOCE MERECE
 *******************************/
 section.voce-merece {
@@ -187,11 +182,7 @@ section.voce-merece {
     .servicos h1 {
         font-size: 25px;
     }
-        
-    .cards-servicos {
-        display: flex;
-        flex-direction: column;
-    }
+    
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -203,6 +194,7 @@ section.voce-merece {
 @media (min-width: 768px) and (max-width: 991.98px) {
     
 }
+
 
 /* Larde devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
