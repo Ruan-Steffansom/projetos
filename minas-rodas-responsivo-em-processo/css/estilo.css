@@ -153,11 +153,63 @@ section.voce-merece {
     padding: 60px;
 }
 
-.caixa {
-    border: 1px solid red;
+.border-voce-merece {
+    border-bottom: 3px solid #ffed00;
+    padding-bottom: 100px;
 }
 
+.caixa {
+    width: 560px;
+    height: 186px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
 
+.caixa h2 {
+    color: #ffed00;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.caixa p {
+    color: white;
+    font-size: 17px;
+}
+
+.icone {
+    color: #ffed00;
+    font-size: 55px;
+    margin-bottom: 13px;
+}
+
+.rotate {
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: rotate(10deg);
+}
+
+/* LOCALIZAÇÃO
+***************************************/
+section.localizacao {
+    background: #000000 url(../imagens/fundo.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+.localizacao h3 {
+    color: #ffed00;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 800
+}
+.localizacao p {
+    color: white;
+    font-size: 19px;
+}
+
+.mapa {
+    border-radius: 15px;
+}
 
 
 
@@ -166,6 +218,13 @@ section.voce-merece {
 ********************************/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98PX) {
+
+    #cabecalho {
+        background: rgba(0, 0, 0, 0.7) url(../imagens/HB-Fundo-1.jpg) no-repeat top right;
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+
     .inicio-textos img {
         width: 150px;
         height: 90px;
