@@ -1,13 +1,11 @@
 # projetos-p
- meus projetos
+ <strong>Veja meus projetos.</strong>
 
 
-<a href="https://ruan-steffansom.github.io/projetos-p/minas-rodas/">Acessar o projeto Minas Rodas</a>
+<a href="https://ruan-steffansom.github.io/projetos/minas-rodas-responsivo/">Projeto Minas Rodas - Responsivo</a>
 
-<a href="https://ruan-steffansom.github.io/projetos-p/minas-rodas-responsivo/">Projeto Minas Rodas - Responsivo</a>
+<a href="https://ruan-steffansom.github.io/projetos/fresco-restaurante-italiano/">Acessar o projeto Fresco restaurante italiano</a>
 
-<a href="https://ruan-steffansom.github.io/projetos-p/fresco-restaurante-italiano/">Acessar o projeto Fresco restaurante italiano</a>
+<a href="https://ruan-steffansom.github.io/projetos/projeto-finans-bootstrap4/">Acessar o projeto Finans</a>
 
-<a href="https://ruan-steffansom.github.io/projetos-p/projeto-finans-bootstrap4/">Acessar o projeto Finans</a>
-
-<a href="https://ruan-steffansom.github.io/projetos-p/picos-belem/">Projeto "picos de skate" em progresso</a>
+<a href="https://ruan-steffansom.github.io/projetos/picos-belem/">Projeto "picos de skate" em progresso</a>
