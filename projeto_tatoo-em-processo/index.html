@@ -24,25 +24,39 @@
 <body>
 
     <header id="home"> <!--INICIO HOME-->
-        <nav class="navbar navegacao navbar-expand-sm"> <!--INICIO NAVAGAÇÃO-->
-            <a href="#" class="navbar-brand logo">
-                <img src="img/Logo sem fundo branca 2.webp" alt="logo studio de tattoo" class="img-fluid">
-            </a>
-            <ul class=" navbar-nav ml-auto">
-                <li class="nav-item mr-4">
-                    <a href="" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item mr-4">
-                    <a href="" class="nav-link">Informações</a>
-                </li>
-                <li class="nav-item mr-4">
-                    <a href="" class="nav-link">Trabalhos</a>
-                </li>
-                <li class="nav-item mr-4">
-                    <a href="" class="nav-link">Sobre</a>
-                </li>
-            </ul>
+        <nav class="navbar navegacao navbar-expand-md"> <!--INICIO NAVAGAÇÃO-->
+            <div class="container-fluid">
+
+                <a href="#" class=" navbar-brand ml-4">
+                    <img src="img/Logo sem fundo branca 2.webp" alt="logo studio de tattoo" class="img-fluid" width="130">
+                </a>
+
+                <!-- MENU HAMBURGUER -->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                    <i class="fa-solid fa-bars fa-lg" style="color: rgb(182, 181, 181);"></i>
+                </button>
+
+                <!-- NAVEGAÇÃO -->
+                    <div class="collapse navbar-collapse" id="nav-target">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item mr-4">
+                                <a href="" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item mr-4">
+                                <a href="" class="nav-link">Informações</a>
+                            </li>
+                            <li class="nav-item mr-4">
+                                <a href="" class="nav-link">Trabalhos</a>
+                            </li>
+                            <li class="nav-item mr-4">
+                                <a href="" class="nav-link">Sobre</a>
+                            </li>
+                        </ul>
+                    </div>
+
+            </div>
         </nav> <!--/FIM NAVEGAÇÃO-->
+        <div class="container-fluid">
             <div class="titulo">
                 <h1 class="text-center">
                     Studio ta<span style="color: red;">tt</span>oo
@@ -51,7 +65,35 @@
                     Lorem ipsum, dolor sit amet consectetur <strong style="color: red;">adipisicing</strong> elit. Repellat illum, impedit molestias <strong style="color: red;">perspiciatis</strong> excepturi amet earum doloribus quia.
                 </p>
             </div>
+            <div class="redes-sociais text-center mt-5">
+                <i class="fa-brands fa-instagram icon-redes-sociais"></i>
+                <i class="fa-brands fa-telegram ml-3 mr-3 icon-redes-sociais"></i>
+                <i class="fa-brands fa-whatsapp icon-redes-sociais"></i>
+            </div>
+        </div>
     </header> <!--/FIM HOME-->
+    
 
+
+
+
+
+
+
+    <!-- 
+        ICONES
+    
+        <i class="fa-brands fa-instagram icon-redes-sociais"></i>
+        <i class="fa-brands fa-telegram ml-3 mr-3 icon-redes-sociais"></i>
+        <i class="fa-brands fa-whatsapp icon-redes-sociais"></i>
+
+    -->
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
