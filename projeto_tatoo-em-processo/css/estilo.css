@@ -14,15 +14,16 @@
     src: url(../fonts/Ancient\ Medium.ttf);
 }
 
-/* HOME */
-#home {
-    width: 100%;
-    height: 100vh;
+html, body, #home {
+    height: 100%;
     overflow-x: hidden;
-    background: rgba(0, 0, 0, 0.8) url(../img/fundo_home.png) no-repeat center center fixed;
-    background-size: cover;
-    background-blend-mode: darken;
 }
+
+body {
+    background: rgba(0, 0, 0, 0.8) url(../img/fundo_home01.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
 
 /* NAVEGAÇÃO */
 .navegacao {
@@ -32,7 +33,8 @@
     -moz-border-radius: 15px;
     -o-border-radius: 15px;
     border-radius: 15px;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(6px);
+    z-index: 0;
 }
 
 .navegacao a {
@@ -47,6 +49,7 @@
     filter: drop-shadow(0px 0px 15px rgba(255, 255, 252, 0.171));
 }
 
+/* HOME */
 .titulo {
     display: flex;
     flex-direction: column;
@@ -80,6 +83,8 @@
     font-size: 45px;
     filter: drop-shadow(0px 0px 20px rgba(209, 1, 1, 0.952));
 }
+
+
 
 
 /* RESPONSIVIDADE */
