@@ -1,7 +1,20 @@
+
+/*GERAIS*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.informacoes h4 {
+    font-family: 'CloisterBlack';
+    font-weight: bold;
+    color: aliceblue;
 }
 
 /* FONTS */
@@ -14,11 +27,6 @@
     src: url(../fonts/Ancient\ Medium.ttf);
 }
 
-html, body, #home {
-    height: 100%;
-    overflow-x: hidden;
-}
-
 body {
     background: rgba(0, 0, 0, 0.8) url(../img/fundo_home01.png) no-repeat center center fixed;
     background-size: cover;
@@ -27,19 +35,18 @@ body {
 
 /* NAVEGAÇÃO */
 .navegacao {
-    box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.822);
-    margin: 10px auto;
+    margin-top: 10px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -o-border-radius: 15px;
     border-radius: 15px;
     backdrop-filter: blur(6px);
-    z-index: 0;
+    box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.822);
 }
 
 .navegacao a {
     color: rgb(182, 181, 181);
-    font-family: CloisterBlack;
+    font-family: 'CloisterBlack';
     font-weight: bold;
     font-size: 24px;
 }
@@ -60,7 +67,7 @@ body {
 
 .titulo h1 {
     color: white;
-    font-family: Ancient;
+    font-family: 'Ancient';
     font-size: 150px;
     filter: drop-shadow(0px 0px 20px rgba(3, 2, 2, 0.952));
 }
@@ -69,13 +76,26 @@ body {
     width: 40%;
     font-size: 20px;
     color: white;
-    font-family: CloisterBlack;
+    font-family: 'CloisterBlack';
+}
+/*aninação*/
+@keyframes redes-sociais {
+    from {top: 0px; }
+    to {top: -8px; }
 }
 
 .redes-sociais {
     color: red;
     font-size: 40px;
     padding: 20px 30px;
+    /*animação*/
+    position: relative;
+    animation-name: redes-sociais;
+    animation-duration: 0.6s;  
+    animation-delay: -3;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-iteration-count: infinite
 } 
 
 .icon-redes-sociais:hover {
@@ -84,6 +104,20 @@ body {
     filter: drop-shadow(0px 0px 20px rgba(209, 1, 1, 0.952));
 }
 
+/* INFORMAÇÕES */
+.informacoes {
+    background: rgb(22, 22, 22);
+    height: 300px;
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.671);
+}
+
+.informacoes i {
+    color: rgb(153, 108, 11);
+}
+
+
+
+
 
 
 
@@ -91,7 +125,8 @@ body {
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98PX) {
     .titulo h1 {
-        font-size: 75px;
+        font-size: 70px;
+        margin-bottom: 18px;
     }
 
     .titulo p {
