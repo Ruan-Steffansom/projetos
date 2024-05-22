@@ -11,10 +11,8 @@ html, body, #home {
     overflow-x: hidden;
 }
 
-.informacoes h4 {
-    font-family: 'CloisterBlack';
-    font-weight: bold;
-    color: aliceblue;
+p {
+    color: rgba(255, 255, 255, 0.692);
 }
 
 /* FONTS */
@@ -107,14 +105,33 @@ body {
 /* INFORMAÇÕES */
 .informacoes {
     background: rgb(22, 22, 22);
-    height: 300px;
+    padding: 100px;
     box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.671);
 }
 
-.informacoes i {
+i.icone-informacoes {
     color: rgb(153, 108, 11);
+    font-size: 48px;
+    margin-bottom: 15px;
 }
 
+.informacoes h4 {
+    font-family: 'CloisterBlack';
+    font-size: 27px;
+    font-weight: bold;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.informacoes p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.1px;
+}
+
+.informacoes div a {
+    text-decoration: none;
+}
 
 
 
@@ -132,15 +149,30 @@ body {
     .titulo p {
         width: 80%;
     }
+
+    /* INFORMAÇÕES */
+    .informacoes {
+        padding: 50px;
+    }
+
+    i.icone-informacoes {
+        font-size: 48px;
+        margin-bottom: 15px;
+    }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    
+
 }
 
 /* Medium devices (tablets, 768px an up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .titulo p {
+        width: 68%;
+    }
+    
     
 }
 
