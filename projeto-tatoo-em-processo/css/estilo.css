@@ -88,7 +88,12 @@ body {
     color: red;
     font-size: 40px;
     padding: 20px 30px;
-    /*animação*/
+    
+} 
+
+/*ANIMAÇÃO*/
+    
+.redes-sociais, .icon-rodape {
     position: relative;
     animation-name: redes-sociais;
     animation-duration: 0.6s;  
@@ -96,7 +101,7 @@ body {
     animation-fill-mode: both;
     animation-direction: alternate;
     animation-iteration-count: infinite
-} 
+}
 
 .icon-redes-sociais:hover {
     color: rgba(255, 0, 0, 0.911);
@@ -168,6 +173,53 @@ section.sobre h1 {
 
 section.sobre img {
     mask-image: linear-gradient(to right, #000 50%, rgba(0,0,0, 0.01) 95%);
+}
+
+/* FOOTER RODAPÉ */
+footer.rodape {
+    background: rgb(22, 22, 22);
+    color: white;
+    font-family: monospace;
+    padding: 50px;
+}
+
+footer.rodape h4 {
+    color: #919496;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+footer .nav-navbar a {
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+footer .nav-navbar a:hover {
+    color: rgb(245, 44, 37);
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer .horarios {
+    color: white;
+    font-size: 0.8em;
+    line-height: 25px;
+}
+
+a .icon-rodape  {
+    color: white;
+    font-size: 35px;
+}
+a .icon-rodape:hover  {
+    color: rgb(245, 44, 37);
+}
+
+.desenvolvido {
+    text-align: center;
+    margin-top: 30px;
 }
 
 
