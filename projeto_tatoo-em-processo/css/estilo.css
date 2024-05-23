@@ -28,6 +28,8 @@ p {
 body {
     background: rgba(0, 0, 0, 0.8) url(../img/fundo_home01.png) no-repeat center center fixed;
     background-size: cover;
+    width: 100%;
+    min-height: 100vh;
 }
 
 
@@ -103,10 +105,10 @@ body {
 }
 
 /* INFORMAÇÕES */
-.informacoes {
+section.informacoes {
     background: rgb(22, 22, 22);
     padding: 100px;
-    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.671);
+    box-shadow: 0px 0px 25px 20px rgba(0, 0, 0, 0.671);
 }
 
 i.icone-informacoes {
@@ -133,6 +135,42 @@ i.icone-informacoes {
     text-decoration: none;
 }
 
+/* SEÇÃO TRABALHOS */
+section.trabalhos{
+    padding: 60px 0 30px 0;
+    backdrop-filter: blur(8px);
+}
+
+.titulo-trabalhos h1 {
+    color: white;
+    font-size: 60px;
+    font-family: 'CloisterBlack';
+    margin-bottom: 50px;
+}
+
+.img-tattoo {
+    border-radius: 10px;
+}
+
+/* SEÇÃO SOBRE */
+section.sobre {
+    background: black;
+    padding: 65px 0;
+}
+
+section.sobre h1 {
+    color: white;
+    font-size: 60px;
+    font-family: 'CloisterBlack';
+    margin-bottom: 50px;
+    
+}
+
+section.sobre img {
+    mask-image: linear-gradient(to right, #000 50%, rgba(0,0,0, 0.01) 95%);
+}
+
+
 
 
 
@@ -155,9 +193,30 @@ i.icone-informacoes {
         padding: 50px;
     }
 
+    .informacoes h4 {
+        font-size: 25px;
+    }
+
+    .informacoes p {
+        font-size: 16px;
+    }
+
     i.icone-informacoes {
         font-size: 48px;
         margin-bottom: 15px;
+    }
+
+    .titulo-trabalhos h1 {
+        font-size: 40px;
+    }
+
+    section.sobre img {
+        mask-image: linear-gradient(to bottom, #000 50%, rgba(0,0,0, 0.01) 90%);
+        margin-bottom: 20px;
+    }
+
+    section.sobre h1 {
+        font-size: 40px;
     }
 
 }
@@ -172,8 +231,6 @@ i.icone-informacoes {
     .titulo p {
         width: 68%;
     }
-    
-    
 }
 
 /* Larde devices (desktops, 992px and up) */
