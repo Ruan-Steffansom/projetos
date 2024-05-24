@@ -35,13 +35,12 @@ body {
 
 /* NAVEGAÇÃO */
 .navegacao {
-    margin-top: 10px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -o-border-radius: 15px;
     border-radius: 15px;
     backdrop-filter: blur(6px);
-    box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.822);
+    /* box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.822); */
 }
 
 .navegacao a {
@@ -78,29 +77,27 @@ body {
     color: white;
     font-family: 'CloisterBlack';
 }
-/*aninação*/
+
+
+/* ANIMAÇÃO REDES SOCIAIS */
 @keyframes redes-sociais {
     from {top: 0px; }
-    to {top: -8px; }
+    to {top: -7px; }
 }
 
 .redes-sociais {
     color: red;
     font-size: 40px;
     padding: 20px 30px;
-    
-} 
 
-/*ANIMAÇÃO*/
-    
-.redes-sociais, .icon-rodape {
     position: relative;
     animation-name: redes-sociais;
     animation-duration: 0.6s;  
-    animation-delay: -3;
-    animation-fill-mode: both;
+    animation-delay: -2;
+    animation-iteration-count: infinite;
     animation-direction: alternate;
-    animation-iteration-count: infinite
+    animation-fill-mode: both;
+    /* animation: redes-sociais 0.6s -2 infinite alternate both; */
 }
 
 .icon-redes-sociais:hover {
@@ -141,12 +138,12 @@ i.icone-informacoes {
 }
 
 /* SEÇÃO TRABALHOS */
-section.trabalhos{
+section.portifolio {
     padding: 60px 0 30px 0;
     backdrop-filter: blur(8px);
 }
 
-.titulo-trabalhos h1 {
+.titulo-portifolio h1 {
     color: white;
     font-size: 60px;
     font-family: 'CloisterBlack';
@@ -180,7 +177,7 @@ footer.rodape {
     background: rgb(22, 22, 22);
     color: white;
     font-family: monospace;
-    padding: 50px;
+    padding: 50px 0 10px 0;
 }
 
 footer.rodape h4 {
@@ -189,13 +186,13 @@ footer.rodape h4 {
     text-transform: uppercase;
 }
 
-footer .nav-navbar a {
+footer .menu a {
     color: white;
     font-size: 0.8em;
     text-decoration: none;
 }
 
-footer .nav-navbar a:hover {
+footer .menu a:hover {
     color: rgb(245, 44, 37);
 }
 
@@ -217,9 +214,40 @@ a .icon-rodape:hover  {
     color: rgb(245, 44, 37);
 }
 
-.desenvolvido {
+.desenvolvidopor {
     text-align: center;
-    margin-top: 30px;
+    margin: 30px 0 0 0;
+}
+
+.desenvolvidopor a {
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.desenvolvidopor a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    filter: drop-shadow(0px 0px 10px rgba(177, 177, 177, 0.814));
+}
+
+/* ANIMAÇÃO STEFFANSOM */
+@keyframes steffansom {
+    from {filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.814)); }
+    to {filter: drop-shadow(0px 0px 10px rgb(255, 0, 0)); }
+}
+
+/* ANIMAÇÃO STEFFANSOM */
+    
+.desenvolvidopor a {
+    position: relative;
+    animation-name: steffansom;
+    animation-duration: 0.6s;  
+    animation-delay: -3;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    /* animation: steffansom 0.6s -3 infinite alternate both; */
 }
 
 
@@ -269,6 +297,22 @@ a .icon-rodape:hover  {
 
     section.sobre h1 {
         font-size: 40px;
+    }
+
+    .menu-sm {
+        margin: 20px 0;
+    }
+
+    .horarios-sm {
+        margin-bottom: 20px;
+    }
+
+    .ajuste-ordem {
+        display: flex;
+    }
+
+    .imagem-ordem {
+        order: 4;
     }
 
 }
