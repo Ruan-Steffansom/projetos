@@ -143,11 +143,12 @@ section.portifolio {
     backdrop-filter: blur(8px);
 }
 
-.titulo-portifolio h1 {
+section.portifolio h1 {
     color: white;
     font-size: 60px;
     font-family: 'CloisterBlack';
     margin-bottom: 50px;
+    filter: drop-shadow(0px 0px 25px rgb(0, 0, 0));
 }
 
 .img-tattoo {
@@ -286,8 +287,12 @@ a .icon-rodape:hover  {
         margin-bottom: 15px;
     }
 
-    .titulo-trabalhos h1 {
-        font-size: 40px;
+    section.portifolio h1 {
+        font-size: 10px;
+    }
+    
+    section.sobre h1 {
+        font-size: 38px;
     }
 
     section.sobre img {
@@ -295,24 +300,12 @@ a .icon-rodape:hover  {
         margin-bottom: 20px;
     }
 
-    section.sobre h1 {
-        font-size: 40px;
-    }
-
-    .menu-sm {
+    footer div.menu-sm {
         margin: 20px 0;
     }
 
-    .horarios-sm {
+    footer div.horarios-sm {
         margin-bottom: 20px;
-    }
-
-    .ajuste-ordem {
-        display: flex;
-    }
-
-    .imagem-ordem {
-        order: 4;
     }
 
 }
