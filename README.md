@@ -2,6 +2,8 @@
  <strong>Veja meus projetos.</strong>
 
 
+<a href="https://ruan-steffansom.github.io/projetos/link_bio/">Acessar o projeto "Link Bio"</a>
+
 <a href="https://ruan-steffansom.github.io/projetos/minas-rodas/">Acessar o projeto "Minas Rodas"</a>
 
 <a href="https://ruan-steffansom.github.io/projetos/projeto-spotify-2019/">Acessar o projeto "Spotify-2019"</a>
