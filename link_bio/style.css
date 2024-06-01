@@ -8,14 +8,15 @@ body {
     width: 100%;
     height: 100vh;
     /* background: linear-gradient(135deg , #170329, #b911c8); */
-    background: rgb(29, 20, 20) url(./imagens/ruido-animado.gif);
+    background: rgb(29, 20, 20) url(./imagens/ruido-animado.gif) repeat center center fixed;
+    background-blend-mode: hard-light;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #container {
-    width: 350px;
+    width: 340px;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -23,14 +24,14 @@ body {
     align-items: center;
 }
 
-.imagem_descricao {
+.topo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.imagem_descricao img {
+.topo img {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
@@ -40,16 +41,22 @@ body {
     box-shadow: 0px 0px 15px 0.1px  #ab15bf91;
 }
 
-.imagem_descricao span a, p, .btn a {
+.topo span a:hover {
+    color: #aa6cb2;
+}
+
+.topo span a, p, .btn a {
     text-decoration: none;
     color: white;
     font-weight: 500;
     letter-spacing: 1.2px;
 }
 
+
+
 .botoes {
     width: 80%;
-    margin: 35px 0 20px 0;
+    margin: 15px 0 20px 0;
     text-align: center;
 }
 
