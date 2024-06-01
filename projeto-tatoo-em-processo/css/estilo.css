@@ -41,6 +41,7 @@ body {
     -moz-border-radius: 15px;
     -o-border-radius: 15px;
     border-radius: 15px;
+    margin-top: 5px;
     backdrop-filter: blur(6px);
     /* box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.822); */
 }
@@ -230,31 +231,21 @@ a .icon-rodape:hover  {
 }
 
 .desenvolvidopor a:hover {
-    color: rgb(255, 0, 0);
+    color: rgb(244, 23, 23);
     text-decoration: none;
     filter: drop-shadow(0px 0px 10px rgba(177, 177, 177, 0.814));
 }
 
-/* ANIMAÇÃO STEFFANSOM */
-@keyframes steffansom {
-    from {filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.814)); }
-    to {filter: drop-shadow(0px 0px 10px rgb(255, 0, 0)); }
+
+::-webkit-scrollbar {
+    background-color: rgb(22, 22, 22);
+    width: 8px;
 }
 
-/* ANIMAÇÃO STEFFANSOM */
-    
-.desenvolvidopor a {
-    position: relative;
-    animation-name: steffansom;
-    animation-duration: 0.6s;  
-    animation-delay: -3;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-fill-mode: both;
-    /* animation: steffansom 0.6s -3 infinite alternate both; */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(153, 108, 11);
+    border-radius: 30px;
 }
-
-
 
 
 
