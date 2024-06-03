@@ -17,19 +17,24 @@ body {
     overflow-x: hidden;
 }
 
-/*BOTÃO DO WHATSAPP
+/*BOTÃO
 ************************************/
-a.botao-whatsapp {
+a.botao {
     color: black;
-    background: #ffed00;
+    background: #80cb0f;
+    font-weight: 500;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -o-border-radius: 8px;
     border-radius: 8px;
 }
-a.botao-whatsapp:hover {
+a.botao:hover {
+    background:  #a2ff16;
     color: black;
     text-decoration: none;
+}
+a.botao i{
+    font-weight: 500;
 }
 
 
@@ -55,7 +60,7 @@ a.botao-whatsapp:hover {
 }
 
 .inicio-textos h1 {
-    color: #ffed00;
+    color: #80cb0f;
     font-size: 48px;
     font-weight: 900;
     text-transform: uppercase;
@@ -74,7 +79,7 @@ a.botao-whatsapp:hover {
 /*SEÇÃO SERVIÇOS
 *****************************/
 section.secao-servicos {
-    background: #ffed00;
+    background: #80cb0f;
     width: 100%;
     height: 100%;
     display: flex;
@@ -107,7 +112,7 @@ section.secao-servicos {
 }
 
 .cards h2 {
-    color: #ffed00;
+    color: #80cb0f;
     font-size: 28px;
     font-weight: 700;
     text-align: center;
@@ -143,7 +148,7 @@ section.voce-merece {
 }
 
 .voce-merece h1 {
-    color: #ffed00;
+    color: #80cb0f;
     font-size: 40px;
     font-weight: 900;
     font-style: italic;
@@ -154,7 +159,8 @@ section.voce-merece {
 }
 
 .border-voce-merece {
-    border-bottom: 3px solid #ffed00;
+    /* #ffed00; */
+    border-bottom: 3px solid #80cb0f;
     padding-bottom: 100px;
 }
 
@@ -166,7 +172,7 @@ section.voce-merece {
 }
 
 .caixa h2 {
-    color: #ffed00;
+    color: #80cb0f;
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 700;
@@ -178,7 +184,7 @@ section.voce-merece {
 }
 
 .icone {
-    color: #ffed00;
+    color: #80cb0f;
     font-size: 55px;
     margin-bottom: 13px;
 }
@@ -194,11 +200,11 @@ section.voce-merece {
 section.localizacao {
     background: #000000 url(../imagens/fundo.jpg)no-repeat center center;
     background-size: cover;
-    padding: 40px 0 60px 0;
+    padding: 40px 0 20px 0;
 }
 
 .localizacao h3 {
-    color: #ffed00;
+    color: #80cb0f;
     text-transform: uppercase;
     font-style: italic;
     font-weight: 800
@@ -215,11 +221,22 @@ section.localizacao {
 /* RODAPÉ
 ***************************************/
 footer {
-    background-color: #ffed00;
+    background-color: #80cb0f;
     width: 100%;
     height: 100%;
     padding: 20px;
     font-size: 16px;
+}
+
+/*SCROLL BAR*/
+::-webkit-scrollbar {
+    background-color: rgb(22, 22, 22);
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #a2ff16;
+    border-radius: 30px;
 }
 
 
