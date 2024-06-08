@@ -23,13 +23,13 @@ p, span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1.5px #ffffffe8;
-}
-
+    }
+    
 #home span {
     font-size: 19px;
     letter-spacing: 2px;
-}
-
+    }
+        
 header#home {
     width: 100%;
     height: 100vh;
@@ -46,11 +46,6 @@ header#home {
     height: 100vh;
 }
 
-.imagem_home {
-    margin-left: 220px;
-    border-radius: 20px;
-}
-
 .redes_sociais {
     color: white;
     font-size: 20px;
@@ -62,8 +57,56 @@ header#home {
 }
 
 .redes_sociais a i:hover {
-    filter: drop-shadow(0px 0px 10px rgb(193, 2, 177));
+    filter: drop-shadow(0px 0px 10px rgb(55, 130, 236));
 }
+
+/* SEÇÃO SOBRE
+*************************/
+section.sobre {
+    background: black;
+    height: 90vh;
+    box-shadow: 0px 0px 30px 15px rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+}
+
+section.sobre h2 {
+    text-align: left;
+    padding-left:70px ;
+}
+
+section.sobre span {
+    font-weight: bold;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px #ffffffe8;
+    }
+    
+    section.sobre article p {
+        padding-left:70px ;
+}
+
+section.sobre article img {
+    border-radius: 10% 35% 10% 35%;
+    filter: brightness(45%);
+    mask-image: linear-gradient(to left, #000 60%, rgba(0,0,0, 0.01) 100%);
+}
+
+
+
+
+::-webkit-scrollbar {
+    background-color: rgb(22, 22, 22);
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(28, 104, 171);
+    border-radius: 30px;
+}
+
 
 
 
@@ -71,20 +114,37 @@ header#home {
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98PX) {
-    
-}
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+    #home h1 {
+        font-size: 70px;
+        margin:0 auto;
+        }
+        
+        section.sobre h2 {
+            text-align: left;
+            padding: 0 ;
+            }
+            
+        section.sobre article p {
+            padding: 0 ;
+        }
+        
+        section.sobre article img {
+            margin-top: 25px;mask-image: linear-gradient(to top, #000 60%, rgba(0,0,0, 0.01) 100%);
+        }
+    }
     
-}
-
-/* Medium devices (tablets, 768px an up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        
+    }
     
-}
-
-/* Larde devices (desktops, 992px and up) */
+    /* Medium devices (tablets, 768px an up) */
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        
+    }
+    
+    /* Larde devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     
 }
