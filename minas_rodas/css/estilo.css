@@ -41,7 +41,7 @@ a.botao i{
 /*INICIO TOPO
 *************************************/
 #cabecalho {
-    background: #ffed00 url(../imagens/HB-Fundo-1.jpg) no-repeat center center;
+    background: #80cb0f url(../imagens/HB-Fundo-1.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -55,8 +55,8 @@ a.botao i{
 }
 
 .inicio-textos img {
-    width: 189px;
-    height: 108px;
+    width: 150px;
+    height: 150px;
 }
 
 .inicio-textos h1 {
@@ -226,6 +226,10 @@ footer {
     height: 100%;
     padding: 20px;
     font-size: 16px;
+}
+
+footer img.img-fluid {
+    filter : drop-shadow(1px 1px 30px black);
 }
 
 /*SCROLL BAR*/
