@@ -4,7 +4,7 @@
 
 <a href="https://ruan-steffansom.github.io/projetos/link_bio/">Acessar projeto <strong>"Link Bio"</strong></a>
 
-<a href="https://ruan-steffansom.github.io/projetos/minas_rodas/">Acessar projeto <strong>"Minas Rodas"</strong></a>
+<a href="https://ruan-steffansom.github.io/projetos/aroplus/">Acessar projeto <strong>"AroPlus"</strong></a>
 
 <a href="https://ruan-steffansom.github.io/projetos/spotify_2019/">Acessar projeto <strong>"Spotify 2019"</strong></a>
 
