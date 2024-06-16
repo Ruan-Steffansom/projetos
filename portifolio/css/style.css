@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'social';
+    src: url(../social_science_sans/SocialScienceSans_PERSONAL_USE_ONLY.otf);
+}
+
 html, body, #home {
     height: 100vh;
     width: 100%;
@@ -17,19 +22,24 @@ html, body, #home {
     
 }
 
+h1, h2, h3 {
+    font-family: 'social';
+}
+
 p, span {
     font-family: "Roboto Mono", monospace;
 }
 
-#home h1 {
-    width: 700px;
+.titulo h1 {
+    width: 100%;
     line-height: 110px;
-    font-weight: 900;
-    font-size: 120px;
+    font-family: 'social';
+    font-weight: 500;
+    font-size: 110px;
     color: transparent;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1.5px #ffffffe8;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.126);
+    -webkit-text-stroke: 1.5px #ffffffef;
 }
 
 #home span {
@@ -52,18 +62,21 @@ header#home {
 }
 
 #home a.b_curriculo {
+    /* background-color: rgba(240, 248, 255, 0.96); */
+    border: 1px solid rgba(240, 248, 255, 0.96);
     text-decoration: none;
     margin-top: 10px;
     padding: 5px 20px;
     border-radius: 30px;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: white;
     transition: 0.7s;
+    filter: drop-shadow(0px 0px 10px rgb(55, 130, 236));
 }
 
 #home a.b_curriculo:hover {
-    color: #0f6f9c;
+    color: black;
 }
 
 
@@ -94,21 +107,22 @@ section.sobre {
 
 section.sobre h2 {
     text-align: left;
+    font-family: 'social';
+    font-size: 28px;
+    letter-spacing: 1.7px;
 }
 
 section.sobre span {
     font-weight: bold;
+    font-family: 'social';
     color: transparent;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.126);
     -webkit-text-stroke: 0.5px #ffffffe8;
 }
 
-section article.texto_sobre {
-}
-
 section.sobre article img {
-    width: 500px;
+    width: 450px;
     border-radius: 10% 35% 10% 35%;
     filter: brightness(45%);
     mask-image: linear-gradient(to left, #000 60%, rgba(0,0,0, 0.01) 100%);
@@ -135,45 +149,49 @@ section.sobre article img {
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98PX) {
 
-    #home h1 {
-        font-size: 68px;
-        margin:0 auto;
-        }
-        
-        section.sobre h2 {
-            text-align: left;
-            padding: 0 ;
-        }
+    .titulo {
+        width: 100%;
+    }
 
-        section.row {
-            width: 100%;
-        }
-            
-        section.sobre article p {
-            padding: 0 ;
-        }
-        
-        section.sobre article img {
-            width: px;
-            margin: 25px 0;
-            mask-image: linear-gradient(to top, #000 45%, rgba(0,0,0, 0.01) 100%);
-        }
+    .titulo h1 {
+        font-size: 60px;
+        line-height: 60px;
     }
     
-    /* Small devices (landscape phones, 576px and up) */
-    @media (min-width: 576px) and (max-width: 767.98px) {
+    section.sobre h2 {
+        text-align: left;
+        padding: 0 ;
+    }
+
+    section.row {
+        width: 100%;
+    }
         
+    section.sobre article p {
+        padding: 0 ;
     }
     
-    /* Medium devices (tablets, 768px an up) */
-    @media (min-width: 768px) and (max-width: 991.98px) {
-        
-        section.sobre article img {
-            width: 600px;
-            margin: 25px 0;
-            mask-image: linear-gradient(to top, #000 48%, rgba(0,0,0, 0.01) 100%);
-        }
+    section.sobre article img {
+        width: px;
+        margin: 25px 0;
+        mask-image: linear-gradient(to top, #000 45%, rgba(0,0,0, 0.01) 100%);
     }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+/* Medium devices (tablets, 768px an up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    section.sobre article img {
+        width: 600px;
+        margin: 25px 0;
+        mask-image: linear-gradient(to top, #000 48%, rgba(0,0,0, 0.01) 100%);
+    }
+}
     
     /* Larde devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
