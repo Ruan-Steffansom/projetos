@@ -5,8 +5,8 @@
 }
 
 @font-face {
-    font-family: 'social';
-    src: url(../social_science_sans/SocialScienceSans_PERSONAL_USE_ONLY.otf);
+    font-family: 'coolvetica';
+    src: url(../coolvetica/coolvetica\ rg\ it.otf);
 }
 
 html, body, #home {
@@ -17,23 +17,34 @@ html, body, #home {
 
 
 .contain {
-    background: black;
+    background: rgba(0, 0, 0, 0.533) url(../imagens/fundo_pontos.jpg) no-repeat top left fixed;
+    background-size: cover;
+    background-blend-mode:darken ;
     color:aliceblue;
-    
-}
-
-h1, h2, h3 {
-    font-family: 'social';
 }
 
 p, span {
     font-family: "Roboto Mono", monospace;
 }
 
+header#home {
+    /* background: rgba(0, 0, 0, 0.533) url(../imagens/fundo_pontos.jpg) no-repeat top left fixed;
+    background-size: cover;
+    background-blend-mode:darken ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home .text {
+    width: 100%;
+    height: 100vh;
+}
+
 .titulo h1 {
     width: 100%;
-    line-height: 110px;
-    font-family: 'social';
+    line-height: 85px;
+    font-family: 'coolvetica';
     font-weight: 500;
     font-size: 110px;
     color: transparent;
@@ -45,20 +56,6 @@ p, span {
 #home span {
     font-size: 19px;
     letter-spacing: 2px;
-}
-
-header#home {
-    background: rgba(0, 0, 0, 0.533) url(../imagens/fundo_pontos.jpg) no-repeat top left fixed;
-    background-size: cover;
-    background-blend-mode:darken ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#home .text {
-    width: 100%;
-    height: 100vh;
 }
 
 #home a.b_curriculo {
@@ -82,7 +79,7 @@ header#home {
 
 .redes_sociais {
     color: white;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 .redes_sociais a i {
@@ -98,23 +95,23 @@ header#home {
 /* SEÇÃO SOBRE
 *************************/
 section.sobre {
-    background: black;
-    width: 100%;
-    height: 100vh;
+    background: rgba(0, 0, 0, 0.932);
     box-shadow: 0px 0px 30px 15px rgb(0, 0, 0);
     padding: 40px;
 }
 
 section.sobre h2 {
+    text-transform: uppercase;
     text-align: left;
-    font-family: 'social';
+    font-family: 'coolvetica';
     font-size: 28px;
-    letter-spacing: 1.7px;
+    letter-spacing: 3px;
 }
 
 section.sobre span {
+    text-transform: uppercase;
     font-weight: bold;
-    font-family: 'social';
+    font-family: 'coolvetica';
     color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0.126);
@@ -122,11 +119,34 @@ section.sobre span {
 }
 
 section.sobre article img {
+    border: 3px solid red;
     width: 450px;
     border-radius: 10% 35% 10% 35%;
     filter: brightness(45%);
     mask-image: linear-gradient(to left, #000 60%, rgba(0,0,0, 0.01) 100%);
 }
+
+
+/* SEÇÃO PROJETOS
+*************************/
+section.area_projetos {
+    background: rgba(0, 0, 0, 0.795);
+    padding: 40px 0;
+}
+
+.area_projetos h2 {
+    font-family: 'coolvetica';
+    font-size: 50px;
+}
+
+.area_projetos p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #666464;
+}
+
+
 
 
 
