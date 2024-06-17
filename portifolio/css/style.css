@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: 'popins';
-    src: url(../coolvetica/coolvetica\ rg\ it.otf);
+    src: url(../Poppins/Poppins-Black.ttf);
 }
 
 html, body, #home {
@@ -28,14 +28,11 @@ html, body, #home {
     color:aliceblue;
 }
 
-p, span {
+#home p, span {
     font-family: "Roboto Mono", monospace;
 }
 
 header#home {
-    /* background: rgba(0, 0, 0, 0.533) url(../imagens/fundo_pontos.jpg) no-repeat top left fixed;
-    background-size: cover;
-    background-blend-mode:darken ; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,8 +45,8 @@ header#home {
 
 .titulo h1 {
     width: 100%;
-    line-height: 85px;
-    font-family: 'coolvetica';
+    line-height: 95px;
+    font-family: 'popins';
     font-weight: 500;
     font-size: 110px;
     color: transparent;
@@ -106,16 +103,21 @@ section.sobre {
 
 section.sobre h2 {
     text-transform: uppercase;
-    text-align: left;
-    font-family: 'coolvetica';
+    font-family: 'popins';
     font-size: 28px;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
+    margin: 20px 0 40px 60px ;
+}
+
+.sobre p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d6cfcf;
 }
 
 section.sobre span {
     text-transform: uppercase;
     font-weight: bold;
-    font-family: 'coolvetica';
+    font-family: 'popins';
     color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0.126);
@@ -139,7 +141,7 @@ section.area_projetos {
 }
 
 .area_projetos h2 {
-    font-family: 'coolvetica';
+    font-family: 'popins';
     font-size: 50px;
 }
 
