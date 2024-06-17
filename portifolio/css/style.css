@@ -9,6 +9,11 @@
     src: url(../coolvetica/coolvetica\ rg\ it.otf);
 }
 
+@font-face {
+    font-family: 'popins';
+    src: url(../coolvetica/coolvetica\ rg\ it.otf);
+}
+
 html, body, #home {
     height: 100vh;
     width: 100%;
