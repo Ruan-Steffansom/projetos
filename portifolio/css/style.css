@@ -109,9 +109,14 @@ section.sobre h2 {
     margin: 20px 0 40px 60px ;
 }
 
-.sobre p {
+.lista_sobre {
+    margin-left: 60px;
+}
+
+.lista_sobre li {
     font-family: Arial, Helvetica, sans-serif;
-    color: #d6cfcf;
+    color: #aca8a8;
+    margin-bottom: 10px;
 }
 
 section.sobre span {
@@ -129,7 +134,7 @@ section.sobre article img {
     width: 450px;
     border-radius: 10% 35% 10% 35%;
     filter: brightness(45%);
-    mask-image: linear-gradient(to left, #000 60%, rgba(0,0,0, 0.01) 100%);
+    mask-image: linear-gradient(to right, #000 60%, rgba(0,0,0, 0.01) 100%);
 }
 
 
@@ -141,9 +146,16 @@ section.area_projetos {
     padding: 80px 0 30px 0;
 }
 
+/* .portifolio {
+    background: rgba(0, 0, 0, 0.971) url(../imagens/PORTFOLIO\ TEXT.png) no-repeat top center;
+    background-size: contain;
+    background-blend-mode: darken;
+    padding: 40px;
+} */
+
 .area_projetos h2 {
     font-family: 'popins';
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .area_projetos p {
@@ -161,6 +173,12 @@ section.area_projetos {
     padding: 80px 0;
 }
 
+.area_habilidades h2 {
+    padding: 50px;
+    font-family: 'popins';
+    font-size: 45px;
+}
+
 .area_habilidades h4 {
     font-weight: 700;
 }
@@ -172,9 +190,8 @@ section.area_habilidades .row {
 .caixa_habilidades {
     border: 1px solid white;
     border-radius: 16px;
-    padding: 10px;
+    padding: 15px;
     width: 330px;
-    height: 300px;
     box-shadow: rgb(20, 20, 20) 6px 6px 30px 0px, rgb(12, 12, 12) -6px -6px 30px 0px
 }
 
