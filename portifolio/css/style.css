@@ -60,37 +60,17 @@ header#home {
     letter-spacing: 2px;
 }
 
-#home a.b_curriculo {
-    /* background-color: rgba(240, 248, 255, 0.96); */
-    background-color: rgba(255, 255, 255, 0.219);
-    text-decoration: none;
-    margin-top: 10px;
-    padding: 5px 20px;
-    border-radius: 30px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: white;
-    transition: 0.7s;
-}
-
-#home a.b_curriculo:hover {
-    filter: drop-shadow(0px 0px 10px rgb(89, 157, 252));
-}
-
-
-.redes_sociais {
-    color: white;
-    font-size: 35px;
-}
-
 .redes_sociais a i {
-    color: white;
-    font-size: 20px;
+    color: rgba(255, 255, 255, 0.753);
+    font-size: 30px;
+    line-height: 50px;
+    padding: 0;
+    filter: drop-shadow(0px 0px 10px rgb(28, 108, 219));
 }
 
 .redes_sociais a i:hover {
-    color: #118ac2;
-    filter: drop-shadow(0px 0px 10px rgb(55, 130, 236));
+    /* color: #6b9db4; */
+    filter: drop-shadow(0px 0px 15px rgb(255, 255, 255));
 }
 
 /* SEÇÃO SOBRE
@@ -106,17 +86,7 @@ section.sobre h2 {
     font-family: 'popins';
     font-size: 28px;
     letter-spacing: 1px;
-    margin: 20px 0 40px 60px ;
-}
-
-.lista_sobre {
-    margin-left: 60px;
-}
-
-.lista_sobre li {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #aca8a8;
-    margin-bottom: 10px;
+    margin: 20px 0 60px 60px ;
 }
 
 section.sobre span {
@@ -127,6 +97,30 @@ section.sobre span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0.126);
     -webkit-text-stroke: 0.5px #ffffffe8;
+}
+
+.lista_sobre li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aca8a8;
+    margin-bottom: 10px;
+}
+
+section a.b_curriculo {
+    /* background-color: rgba(240, 248, 255, 0.96); */
+    background-color: rgba(255, 255, 255, 0.178);
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+    transition: 0.7s;
+}
+
+section a.b_curriculo:hover {
+    background-color: rgba(255, 255, 255, 0.781);
+    filter: drop-shadow(0px 0px 10px rgba(89, 157, 252, 0.753));
 }
 
 section.sobre article img {
@@ -163,6 +157,10 @@ section.area_projetos {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     color: #999797;
+}
+
+.imagem_projeto {
+    filter: drop-shadow(0px 0px 25px rgba(28, 108, 219, 0.288));
 }
 
 
@@ -227,6 +225,10 @@ section.area_habilidades .row {
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98PX) {
+    
+    .contain {
+        background: rgba(0, 0, 0, 0.533) url(../imagens/fundo_pontos.jpg) no-repeat center center fixed;
+    }
 
     .titulo {
         width: 100%;
@@ -240,14 +242,17 @@ section.area_habilidades .row {
     section.sobre h2 {
         text-align: left;
         padding: 0 ;
+        margin:auto;
+        margin-top: 50px;
+        margin-bottom: 70px;
     }
 
     section.row {
         width: 100%;
     }
         
-    section.sobre article p {
-        padding: 0 ;
+    .lista_sobre {
+        padding-left: 15px;
     }
     
     section.sobre article img {
@@ -257,6 +262,10 @@ section.area_habilidades .row {
     }
 
     .area_projetos h2 {
+        font-size: 35px;
+    }
+
+    .area_habilidades h2 {
         font-size: 35px;
     }
 }
