@@ -200,7 +200,7 @@ section.voce-merece {
 section.localizacao {
     background: #000000 url(../imagens/fundo.jpg)no-repeat center center;
     background-size: cover;
-    padding: 40px 0 20px 0;
+    padding: 40px 0 60px 0;
 }
 
 .localizacao h3 {
@@ -228,9 +228,7 @@ footer {
     font-size: 16px;
 }
 
-footer img.img-fluid {
-    filter : drop-shadow(1px 1px 30px black);
-}
+
 
 /*SCROLL BAR*/
 ::-webkit-scrollbar {
@@ -251,7 +249,7 @@ footer img.img-fluid {
 @media (max-width: 575.98PX) {
 
     #cabecalho {
-        background: rgba(0, 0, 0, 0.7) url(../imagens/HB-Fundo-1.jpg) no-repeat top right;
+        background: rgba(0, 0, 0, 0.7) url(../imagens/HB-Fundo-1.jpg) no-repeat right top;
         background-size: cover;
         background-blend-mode: darken;
     }
@@ -287,17 +285,10 @@ footer img.img-fluid {
         width: 98%;
     }
 
-    .copy {
-        order: 0;
+    footer {
+        font-size: 15px;
     }
-
-    .logo {
-        order: 2;
-    }
-
-    .creditos {
-        order: 1;
-    }
+    
 }
 
 /* Small devices (landscape phones, 576px and up) */
