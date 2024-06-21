@@ -26,7 +26,7 @@ p {
 }
 
 body {
-    background: rgba(0, 0, 0, 0.8) url(../img/fundo_home01.png) no-repeat center center fixed;
+    background: rgb(0, 0, 0.8) url(../img/fundo_home01.png) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
@@ -36,14 +36,12 @@ body {
 /* NAVEGAÇÃO */
 .navegacao {
     box-shadow: 0px 0px 75px rgba(227, 228, 237, 0.277);
-    border: 1px solid rgba(255,255,255,0.18);
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -o-border-radius: 15px;
-    border-radius: 15px;
-    margin-top: 5px;
-    backdrop-filter: blur(6px);
-    /* box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.822); */
+    border-bottom: 1px solid rgba(255,255,255,0.18);
+    -webkit-border-radius:0 0 15px 15px;
+    -moz-border-radius:0 0 15px 15px;
+    -o-border-radius:0 0 15px 15px;
+    border-radius:0 0 15px 15px;
+    backdrop-filter: blur(10px);
 }
 
 .navegacao a {
@@ -113,7 +111,7 @@ body {
 section.informacoes {
     background: rgb(22, 22, 22);
     padding: 100px;
-    box-shadow: 0px 0px 25px 20px rgba(0, 0, 0, 0.671);
+    box-shadow: 0px 0px 25px 20px rgba(12, 12, 12, 0.89);
 }
 
 i.icone-informacoes {
@@ -156,6 +154,7 @@ section.portifolio h1 {
 
 .img-tattoo {
     border-radius: 10px;
+    filter: drop-shadow(0px 0px 25px rgba(82, 12, 12, 0.39));
 }
 
 /* SEÇÃO SOBRE */
