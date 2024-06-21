@@ -2,7 +2,7 @@
  <strong>Veja meus projetos.</strong>
 
 
-<a href="https://ruan-steffansom.github.io/projetos/link_bio/">Acessar projeto <strong>"Link Bio"</strong></a>
+<a href="https://ruan-steffansom.github.io/projetos/linktree/">Acessar o meu <strong>"Link Tree"</strong></a>
 
 <a href="https://ruan-steffansom.github.io/projetos/aroplus/">Acessar projeto <strong>"AroPlus"</strong></a>
 
