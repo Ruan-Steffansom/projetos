@@ -38,16 +38,11 @@ body {
     -o-border-radius: 50%;
     border-radius: 50%;
     border: 2px solid rgba(1, 29, 94, 0.667);
-    margin: 20px;
     box-shadow: 0px 0px 25px 0.1px  #1947dd5c;
     filter: brightness(80%);
 }
 
-.topo span a:hover {
-    color: #1543db;
-}
-
-.topo span a, p, .btn a {
+.topo span, p, .btn a {
     text-decoration: none;
     color: white;
     font-weight: 500;
@@ -64,11 +59,12 @@ body {
 
 button.btn {
     background: linear-gradient(to right , #1543db, #030005 82%);
+    box-shadow: 0px 0px 25px 0.1px  #8ca4f31e;
     width: 95%;
     font-weight: bold;
     line-height: 35px;
     letter-spacing: 1.2px;
-    margin: 10px 0;
+    margin: 3px 0;
     padding: 0 10px;
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
