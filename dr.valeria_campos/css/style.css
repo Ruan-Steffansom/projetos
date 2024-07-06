@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background: url(../imagens/bg-sessao-1.png) no-repeat top center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-home {
+    border: 1px solid red;
+    width: 36.5em;
+    margin-left: 24.3125em;
+}
+
+.text-home h1 {
+    border: 1px solid red;
+    font-size: 3.4375em;
+    font-weight: 600;
+}
+
+.text-home p {
+    border: 1px solid red;
+    font-size: 1.125em;
+}
+
+.text-home a {
+    border: 1px solid red;
+    font-size: 1.25;
+    font-weight: 600;
+    color: white;
+    background: #541321;
+    padding: 15px 30px;
+    border-radius: 42px;
+}
