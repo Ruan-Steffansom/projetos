@@ -180,10 +180,11 @@ span.img-equipamentos {
 }
 /*********************************************/
 
+
 /* SEÇÃO  DOUTORA
 **********************************************/
 section.doutora {
-    box-shadow: 0px 0px 150px 160px white;
+    box-shadow: 0px -150px 150px white;
     position: relative;
     z-index: 1
 }
@@ -207,4 +208,68 @@ section.doutora {
 .texto-doutora p {
     font-family: 'Poppins-Regular';
     font-size: 1.2em;
+}
+/********************************************/
+
+
+/* SEÇÃO  DEPOIMENTOS
+**********************************************/
+section.depoimentos {
+    padding: 20px 0 120px 0;
+}
+
+.depoimentos h2 {
+    font-family: 'Poppins-SemiBold';
+    font-size: 2.81em;
+    padding: 130px 0 0 0;
+}
+
+section.depoimentos p {
+    width: 622px;
+    font-family: 'Poppins-Regular';
+    font-size: 1.1em;
+    text-align: center;
+    margin: 13px 0 57px 0;
+}
+/********************************************/
+.texto-localizacao h2 {
+    font-family: 'Poppins-SemiBold';
+    font-size: 2.2em;
+}
+
+a.botao-loc1 {
+    font-size: 0.9em; 
+    font-family: 'Poppins-SemiBold';
+    color: white;
+    background: #541321;
+    padding: 13px 45px 13px 45px;
+    border-radius: 42px;
+    margin-left: 15em;
+    
+}
+
+a.botao-loc1:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a.botao-loc2 {
+    font-size: 0.9em; 
+    font-family: 'Poppins-SemiBold';
+    color: #541321;
+    background: #e0e0e0fc;
+    padding: 13px 45px 13px 45px;
+    border-radius: 42px;
+}
+
+a.botao-loc2:hover {
+    color: #541321;
+    text-decoration: none;
+}
+
+div.mapa iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    margin-top: 5em;
 }
