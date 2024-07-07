@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ;
 }
 
 #home {
@@ -16,28 +15,64 @@
 }
 
 .text-home {
-    border: 1px solid red;
     width: 36.5em;
-    margin-left: 24.3125em;
+    height: 26.6em;
+    margin-left: 24.3em;
+    margin-top: -2em;
 }
 
 .text-home h1 {
-    border: 1px solid red;
     font-size: 3.4375em;
     font-weight: 600;
+    line-height: 133%;
+    margin: 31px 0 14px 0;
 }
 
 .text-home p {
-    border: 1px solid red;
     font-size: 1.125em;
+    margin-bottom: 2.4em;
 }
 
 .text-home a {
-    border: 1px solid red;
     font-size: 1.25;
     font-weight: 600;
     color: white;
     background: #541321;
-    padding: 15px 30px;
+    padding: 15px 8px 15px 50px;
     border-radius: 42px;
+}
+
+.text-home a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.text-home a i {
+    font-size: 2em;
+    rotate: -38deg;
+}
+
+
+/* SEÇÃO SERVIÇOS
+*********************************************************/
+section.servicos {
+    border: 1px solid red;
+    background: #f4f3f3ec;
+    height: 100vh;
+    padding-top: 7.4em;
+    padding-bottom: 7.3em;
+}
+
+span.ajuda {
+    border: 1px solid #dad8d8ea;
+    border-radius: 42px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+
+section.servicos h1 {
+    border: 1px solid red;
+    font-size:  2.812em;
+    text-align: center;
+    width: 17em;
 }
