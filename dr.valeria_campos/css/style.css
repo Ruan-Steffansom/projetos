@@ -273,3 +273,20 @@ div.mapa iframe {
     border: none;
     margin-top: 5em;
 }
+
+
+section.contatos {
+    background: #541321;
+}
+
+.info-contatos h2 {
+    font-family: 'Poppins-SemiBold';
+    font-size: 3.125em;
+    color: white;
+}
+
+.info-contatos p {
+    font-family: 'Poppins-Regular';
+    font-size: 1.2em;
+    color: white;
+}
