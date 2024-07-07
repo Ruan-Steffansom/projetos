@@ -1,9 +1,54 @@
+
+/* GERAL
+**********************************************/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+a.botao {
+    font-size: 1.25; 
+    font-family: 'Poppins-SemiBold';
+    color: white;
+    background: #541321;
+    padding: 15px 8px 15px 50px;
+    border-radius: 42px;
+}
+
+a.botao:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a.botao i {
+    font-size: 2em;
+    rotate: -38deg;
+}
+/*********************************************/
+
+
+/* FONTES
+**********************************************/
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url(../Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(../Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(../Poppins/Poppins-Bold.ttf);
+}
+/*********************************************/
+
+
+/* SEÇÃO HOME
+********************************************/
 #home {
     width: 100%;
     height: 100vh;
@@ -23,56 +68,143 @@
 
 .text-home h1 {
     font-size: 3.4375em;
-    font-weight: 600;
+    font-family: 'Poppins-SemiBold';
     line-height: 133%;
     margin: 31px 0 14px 0;
 }
 
 .text-home p {
     font-size: 1.125em;
+    font-family: 'Poppins-Regular';
     margin-bottom: 2.4em;
 }
 
-.text-home a {
-    font-size: 1.25;
-    font-weight: 600;
-    color: white;
-    background: #541321;
-    padding: 15px 8px 15px 50px;
-    border-radius: 42px;
-}
-
-.text-home a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-.text-home a i {
-    font-size: 2em;
-    rotate: -38deg;
-}
+/*********************************************/
 
 
 /* SEÇÃO SERVIÇOS
-*********************************************************/
+**********************************************/
 section.servicos {
-    border: 1px solid red;
-    background: #f4f3f3ec;
-    height: 100vh;
+    background: #f5f5f57a;
     padding-top: 7.4em;
-    padding-bottom: 7.3em;
 }
 
 span.ajuda {
     border: 1px solid #dad8d8ea;
+    width: 15em;
     border-radius: 42px;
     padding: 10px 25px;
     text-transform: uppercase;
 }
 
-section.servicos h1 {
-    border: 1px solid red;
+.conteiner-servicos h2 {
+    width: 17em;
     font-size:  2.812em;
     text-align: center;
-    width: 17em;
+    margin: 25px 0 27px 0;
+}
+
+.conteiner-servicos p {
+    font-family: 'Poppins-Regular';
+    font-size: 1em;
+    width: 32em;
+    text-align: center;
+}
+
+article.cards-servicos {
+    border: 1px solid #88878745;
+    background-color: white;
+    border-radius: 15px;
+    padding: 51px 46px;
+    margin-top:  3.125em;
+}
+
+.cards-servicos h3 {
+    font-family: 'Poppins-SemiBold';
+    font-size: 1em;
+}
+
+.cards-servicos p {
+    font-family: 'Poppins-Regular';
+    font-size: 0.81em;
+    text-align: left;
+    width: 274px;
+}
+/*********************************************/
+
+/* SEÇÃO CORAÇÃO
+**********************************************/
+section.coracao {
+    padding: 10em 0 12em 0;
+}
+
+.texto-coracao {
+    width: 36em;
+}
+
+.texto-coracao h2{
+    font-family: 'Poppins-SemiBold';
+    font-size: 2.81em;
+    line-height: 150%;
+}
+
+.texto-coracao p{
+    width: 580px;
+    font-size: 1.3em;
+    margin-bottom: 2em;
+}
+
+/*********************************************/
+
+
+/* SEÇÃO EQUIPAMENTOS
+**********************************************/
+section.equipamentos {
+    background-color: white;
+}
+
+span.img-equipamentos {
+    background-color: #541321;
+    height: 70px;
+    width: 100%;
+    color: white;
+    font-size: 1.2em;
+}
+
+.equipamentos span i {
+    rotate: 50deg;
+}
+
+.imagens01 img.img1 {
+    border-radius: 0px 31px 31px 0;
+}
+/*********************************************/
+
+/* SEÇÃO  DOUTORA
+**********************************************/
+section.doutora {
+    box-shadow: 0px 0px 150px 160px white;
+    position: relative;
+    z-index: 1
+}
+
+.container-doutora img {
+    margin-top: -11em;
+}
+
+.texto-doutora {
+    width: 51%;
+    margin-top: -2em;
+}
+
+.texto-doutora h2 {
+    font-family: 'Poppins-SemiBold';
+    font-size: 2.81em;
+    line-height: 150%;
+    margin-bottom: 28px;
+}
+
+.texto-doutora p {
+    font-family: 'Poppins-Regular';
+    font-size: 1.2em;
 }
