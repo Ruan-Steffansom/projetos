@@ -28,7 +28,7 @@
     <main>
 
         <section class="servicos"><!-- INICIO SERVIÇOS-->
-            <div class="container p-0 d-flex flex-column align-items-center conteiner-servicos" style="border: 1px solid blue;">
+            <div class="container p-0 d-flex flex-column align-items-center conteiner-servicos">
                 <span class="ajuda">COMO POSSO TE AJUDAR</span>
                 <h2><span style="color: #541321;">Serviços Cardiológicos Completos </span>Para Proteger seu Coração</h2>
                 <p>Da Prevenção ao Tratamento Avançado, Cuidado Especializado Que Atende Suas Necessidades Únicas</p>
@@ -198,22 +198,63 @@
         </section>
 
         <section class="contatos">
-            <div class="container" style="border: 1px solid red;">
+            <div class="container d-flex p-0 justify-content-between">
                 <div class="info-contatos">
                     <h2>Vamos cuidar do seu coração?</h2>
                     <p>Preenche o formulário e em breve nosso time entrará em contato com você.</p>
-                    <img src="imagens/traco8.png" alt="">
+                    <img src="imagens/traco8.png" alt=""><br><br>
+                    
                     <p>
-                        Outros meios de contato <br>
-                        <i class="fa-brands fa-whatsapp mr-2"></i>(00) 0000-0000  (00) 0000-0000 <br>
+                        Outros meios de contato <br><br>
+                        <i class="fa-brands fa-whatsapp mr-2"></i>(00) 0000-0000  <i class="fa-solid fa-phone ml-4 mr-2"></i>(00) 0000-0000 <br> <br>
+                        
+                        <i class="fa-regular fa-envelope mr-2"></i>contato@contato.com.br
                     </p>
-                </div>
-            </div>
+                    <img src="imagens/traco8.png" alt=""><br><br>
 
-            <form action=""></form>
+                    <div class="redes-sociais">
+                        <a href="#"><img src="imagens/INSTAGRAM.png" alt=""></a>
+                        <a href="#"><img src="imagens/TIKTOK.png" alt=""></a>
+                        <a href="#"><img src="imagens/YOUTUBE.png" alt=""></a>
+                        <span>Siga nas Redes Sociais</span>
+                    </div>
+                </div>
+                
+                <form action="" class="d-flex flex-column">
+                    <h2>Preencha o formulário</h2>
+
+                    <label>
+                        <input type="text" name="name" id="name" placeholder="Digite seu nome..." required>
+                    </label>
+
+                    <label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail..." required>
+                    </label>
+
+                    <label>
+                        <input type="text" name="text" id="text" placeholder="Digite o assunto..." required>
+                    </label>
+
+                    <label>
+                        <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem..." required></textarea>
+                    </label>
+
+                    <label class="botao-form">
+                        <input type="submit" value="Enviar mensagem">
+                    </label>
+                    
+                </form>
+            </div>
         </section>
 
     </main>
+
+    <footer>
+        <div class="container d-flex justify-content-between">
+            <span>&copy; 2024 Dra Valéria Campos Todos os direitos reservados.</span>
+            <span>Termos de uso | Políticas de privacidade</span>
+        </div>
+    </footer>
 
 
 
