@@ -49,6 +49,10 @@ a.botao i {
 /*********************************************/
 
 
+body, html {
+    overflow-x: hidden;
+}
+
 /* SEÇÃO HOME
 ********************************************/
 #home {
@@ -64,15 +68,14 @@ a.botao i {
 .text-home {
     width: 36.5em;
     height: 26.6em;
-    margin-left: 24.3em;
     margin-top: -2em;
 }
 
 .text-home h1 {
-    font-size: 3.4375em;
+    font-size: 3.43em;
     font-family: 'Poppins-SemiBold';
     line-height: 133%;
-    margin: 31px 0 14px 0;
+    margin: 0.6em 0 0.3em 0;
 }
 
 .text-home p {
@@ -370,6 +373,13 @@ footer {
 
 
 
+/* RESPONSIVIDADE */
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98PX) {
+    
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     
@@ -377,9 +387,30 @@ footer {
 
 /* Medium devices (tablets, 768px an up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
-}
 
+    #home {
+        background-size: 105em 71.45em;
+    }
+    
+    .text-home {
+        width: 29em;
+        height: 26.6em;
+        margin-top: -2em;
+    }
+    
+    .text-home h1 {
+        font-size: 2.8em;
+    }
+    
+    .text-home p {
+        width: 21em;
+    }
+
+    
+    article.cards-servicos {
+        padding: 25px 30px;
+    }
+}
 
 /* Larde devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
