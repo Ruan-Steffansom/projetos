@@ -135,6 +135,10 @@ article.cards-servicos {
     text-align: left;
     width: 274px;
 }
+
+.btn-servicos {
+    margin-bottom: -1.5em;
+}
 /*********************************************/
 
 /* SEÇÃO CORAÇÃO
@@ -409,6 +413,47 @@ footer {
     
     article.cards-servicos {
         padding: 25px 30px;
+    }
+
+    /***********************************/
+
+    section.coracao {
+        padding: 8em 0 9em 0;
+    }
+    
+    div.container-coracao {
+        background: rgba(0, 0, 0, 0.678) url(../imagens/esteto-coracao.png);
+        background-size: cover;
+        background-blend-mode:darken;
+        border-radius: 45px;
+
+    }
+    
+    .texto-coracao {
+        width: 100%;
+        padding: 50px;
+        color: #faf9f9;
+    }
+    
+    .texto-coracao h2{
+        font-size: 2em;
+    }
+    
+    .texto-coracao p {
+        font-size: 1.3em;
+    }
+
+    a.btn-coracao {
+        background-color:#d2f2f7fb;
+        color: #541321;
+        font-weight: 700;
+        transition: 1s;
+    }
+    
+    a.btn-coracao:hover {
+        background-color: #541321;
+        color: #d2f2f7fb;
+        font-weight: 700;
     }
 }
 
