@@ -163,6 +163,15 @@ section.coracao {
     margin-bottom: 2em;
 }
 
+.texto-coracao h2 span {
+    color: #541321;
+}
+
+.texto-coracao p span {
+    color: #541321;
+    font-weight: 700;
+}
+
 /*********************************************/
 
 
@@ -172,19 +181,19 @@ section.equipamentos {
     background-color: white;
 }
 
-span.img-equipamentos {
+span.faixa {
     background-color: #541321;
-    height: 70px;
+    height: 60px;
     width: 100%;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .equipamentos span i {
     rotate: 50deg;
 }
 
-.imagens01 img.img1 {
+.imagens-equipa img.img1 {
     border-radius: 0px 31px 31px 0;
 }
 /*********************************************/
@@ -240,6 +249,7 @@ section.depoimentos p {
     text-align: center;
     margin: 13px 0 57px 0;
 }
+
 /********************************************/
 .texto-localizacao h2 {
     font-family: 'Poppins-SemiBold';
@@ -333,7 +343,7 @@ form {
     width: 587px;
     height: 700px;
     border-radius: 42px;
-    padding: 49px 48px;
+    padding: 35px 48px;
     margin-top: -7em;
 }
 
@@ -346,7 +356,7 @@ form h2 {
 label input {
     width: 100%;
     height: 74px;
-    margin-bottom: 1.1em;
+    margin-bottom: 0.5em;
     border-radius: 20px;
     border: none;
     padding: 23px 25px;
@@ -386,7 +396,7 @@ footer {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    
+
 }
 
 /* Medium devices (tablets, 768px an up) */
@@ -443,6 +453,15 @@ footer {
         font-size: 1.3em;
     }
 
+    .texto-coracao h2 span {
+        color: #7eeaf8;
+    }
+
+    .texto-coracao p span {
+        color: #7eeaf8;
+        font-weight: 700;
+    }
+
     a.btn-coracao {
         background-color:#d2f2f7fb;
         color: #541321;
@@ -455,6 +474,75 @@ footer {
         color: #d2f2f7fb;
         font-weight: 700;
     }
+
+    /***********************************/
+    
+    .imagens-equipa img {
+        width: 15.7em;
+    }
+
+    /************************************/
+    
+    .container-doutora {
+        flex-direction: column;
+    }
+    
+    .container-doutora img {
+        margin: -6em 0 6em 0;
+    }
+    
+    .texto-doutora {
+        border: 1px solid red;
+        width: 80%;
+        margin-top: -2em;
+    }
+
+    .texto-doutora h2 {
+        font-size: 2.9em;
+    }
+
+    /*********************************/
+
+.texto-localizacao h2 {
+    border: 1px solid red;
+    font-size: 2em;
+    line-height: 120%;
+}
+
+a.botao-loc1 {
+    font-size: 0.8em; 
+    text-align: center;
+    line-height: 30px;
+    padding: 12px 50px 12px 50px;
+    margin: 0 1em 0 -1em;
+}
+
+a.botao-loc1:hover {
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 0px 12px #541321;
+}
+
+a.botao-loc2 {
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 30px;
+    padding: 12px 50px 12px 50px;
+}
+
+a.botao-loc2:hover {
+    color: #541321;
+    text-decoration: none;
+    box-shadow: 0px 0px 12px #532a33;
+}
+
+div.mapa iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    margin-top: 5em;
+    margin-bottom: -0.4em;
+}
 }
 
 /* Larde devices (desktops, 992px and up) */
