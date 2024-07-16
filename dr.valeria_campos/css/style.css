@@ -503,17 +503,19 @@ footer {
     /*********************************/
 
 .texto-localizacao h2 {
-    border: 1px solid red;
-    font-size: 2em;
-    line-height: 120%;
+    border: 1px solid blue;
+    font-size: 2.5em;
+    text-align: center;
 }
 
 a.botao-loc1 {
-    font-size: 0.8em; 
+    border: 1px solid red;
+    font-size: 0.9em; 
     text-align: center;
+    width: 25em;
     line-height: 30px;
-    padding: 12px 50px 12px 50px;
-    margin: 0 1em 0 -1em;
+    padding: 12px 20px;
+    margin: 1.5em auto;
 }
 
 a.botao-loc1:hover {
@@ -523,10 +525,13 @@ a.botao-loc1:hover {
 }
 
 a.botao-loc2 {
+    border: 1px solid red;
+    margin: auto;
     font-size: 0.9em;
     text-align: center;
+    width: 25em;
     line-height: 30px;
-    padding: 12px 50px 12px 50px;
+    padding: 12px 20px;
 }
 
 a.botao-loc2:hover {
