@@ -40,10 +40,10 @@ header#home {
 
 .titulo h1 {
     width: 100%;
-    line-height: 95px;
+    line-height: 0.9em;
     font-family: 'popins';
     font-weight: 500;
-    font-size: 110px;
+    font-size: 8em;
     color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0.126);
@@ -51,12 +51,9 @@ header#home {
 }
 
 .titulo span {
-    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
-}
-
-#home span {
-    font-size: 19px;
+    font-size: 1.8em;
     letter-spacing: 2px;
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
 }
 
 .redes_sociais a i {
@@ -64,12 +61,11 @@ header#home {
     font-size: 30px;
     line-height: 50px;
     padding: 0;
-    filter: drop-shadow(0px 0px 10px rgb(28, 108, 219));
 }
 
 .redes_sociais a i:hover {
     /* color: #6b9db4; */
-    filter: drop-shadow(0px 0px 15px rgb(255, 255, 255));
+    filter: drop-shadow(0px 0px 15px rgba(69, 111, 247, 0.87));
 }
 
 /* SEÇÃO SOBRE
@@ -134,24 +130,37 @@ section.sobre article img {
 /* SEÇÃO PROJETOS
 *************************/
 section.area_projetos {
-    background: rgba(0, 0, 0, 0.884);
+    background: rgba(0, 0, 0, 0.884) url(../imagens/fundo_ondas.jpg) no-repeat center;
+    background-size: cover;
+    background-blend-mode:darken;
     box-shadow: 0px 0px 70px 15px rgb(0, 0, 0);
     padding: 80px 0 30px 0;
+    position: relative;
 }
 
-/*
+/* .text-portifolio {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+    opacity: .02;
+} */
+
+
+
 .portifolio {
-    background: rgba(0, 0, 0, 0.975) url(../imagens/PORTFOLIO\ TEXT.png) no-repeat top center;
+    background: rgba(0, 0, 0, 0.9788) url(../imagens/PORTFOLIO\ TEXT.png) no-repeat top center;
     background-size: contain;
     background-blend-mode: darken;
-    padding: 40px;
+    padding: 4em 0;
 }  
-*/
 
 
 .area_projetos h2 {
     font-family: 'popins';
-    font-size: 45px;
+    font-size: 2.9em;
 }
 
 .area_projetos p {
@@ -161,7 +170,8 @@ section.area_projetos {
     color: #999797;
 }
 
-.imagem_projeto {
+.imagem_projeto img {
+    width: 45em;
     filter: drop-shadow(0px 0px 25px rgba(28, 108, 219, 0.288));
 }
 
@@ -169,18 +179,25 @@ section.area_projetos {
 /* SEÇÃO HABILIDADES
 *************************/
 .area_habilidades {
-    background: rgba(0, 0, 0, 0.63);
-    padding: 80px 0;
+    background: rgba(0, 0, 0, 0.945);
+    padding: 5em 0;
+}
+
+.habilidades {
+    background: rgba(0, 0, 0, 0.9788) url(../imagens/HABILIDADES.png) no-repeat top center;
+    background-size: contain;
+    background-blend-mode: darken;
+    padding: 1.5em 0;
+    margin-bottom: 2em;
 }
 
 .area_habilidades h2 {
-    padding: 50px;
     font-family: 'popins';
-    font-size: 45px;
+    font-size: 2.9em;
 }
 
 .area_habilidades h4 {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 section.area_habilidades .row {
@@ -189,21 +206,24 @@ section.area_habilidades .row {
 
 .caixa_habilidades {
     border: 1px solid white;
+    background: #000000b4 url(../imagens/fundo_ondas.jpg) no-repeat center center;
+    background-size: cover;
+    background-blend-mode:darken;
     border-radius: 16px;
     padding: 15px;
     width: 330px;
     box-shadow: rgb(20, 20, 20) 6px 6px 30px 0px, rgb(12, 12, 12) -6px -6px 30px 0px
 }
 
-.html, .css, .bootstrap, .javascript {
-    font-size: 60px;
+.fa-html5, .fa-css3-alt, .fa-bootstrap, .fa-js, .fa-wordpress {
+    font-size: 3.7em;
 }
 
 .area_habilidades p {
-    font-size: 16px;
+    font-size: 1.125em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
-    color: #b9b5b5;
+    color: #c4c4c4;
 }
 
 
@@ -237,8 +257,16 @@ section.area_habilidades .row {
     }
 
     .titulo h1 {
-        font-size: 60px;
+        font-size: 3.7em;
         line-height: 60px;
+    }
+
+    .titulo span {
+        font-size: 1.2em;
+    }
+    
+    .redes_sociais a i {
+        font-size: 1.5em;
     }
     
     section.sobre h2 {
@@ -263,13 +291,10 @@ section.area_habilidades .row {
         mask-image: linear-gradient(to bottom, #000 75%, rgba(0,0,0, 0.01) 100%);
     }
 
-    .area_projetos h2 {
-        font-size: 35px;
+    .area_projetos h2,  .area_habilidades h2 {
+        font-size: 2em;
     }
 
-    .area_habilidades h2 {
-        font-size: 35px;
-    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -279,6 +304,10 @@ section.area_habilidades .row {
 
 /* Medium devices (tablets, 768px an up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    .titulo h1 {
+        font-size: 7em;
+    }
     
     section.sobre article img {
         mask-image: linear-gradient(to right, #000 48%, rgba(0,0,0, 0.01) 100%);
