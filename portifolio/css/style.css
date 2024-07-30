@@ -15,7 +15,6 @@ html, body, #home {
     overflow-x: hidden; /* esconde a barra de rolagem horizontal */
 }
 
-
 .contain {
     background: rgba(0, 0, 0, 0.533) url(../imagens/fundo_pontos.jpg) no-repeat top left fixed;
     background-size: cover;
