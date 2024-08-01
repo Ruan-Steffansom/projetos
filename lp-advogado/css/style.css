@@ -24,8 +24,7 @@
 #home {
     width: 100%;
     height: 100dvh;
-    background: #000000b9 url(../imagens/capa-home.jpg) no-repeat center center
-    ;
+    background: #000000b9 url(../imagens/capa-home.jpg) no-repeat center center fixed;
     background-size: cover;
     background-blend-mode: darken;
     display: flex;
@@ -93,11 +92,10 @@ a.botao-contato:hover {
 section.ajuda {
     width: 100%;
     height: 640px;
-    padding: 5em 0;
+    padding: 5em 0 7em 0;
 }
 
 .ajuda h2 {
-    border: 1px solid red;
     font-size: 2em;
     font-weight: 900;
     text-align: center;
@@ -145,6 +143,70 @@ article.cards-ajuda  p {
 /*****************************************/
 
 
+/* inicio seção escritório*/
+section.escritorio {
+    width: 100%;
+    height: 57em;
+    background: #000000b9 url(../imagens/aperto-mao.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 5em 0 6em 0;
+}
+
+.escritorio h2 {
+    width: 100%;
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 2em;
+    color: #fff;
+}
+
+.escritorio h2 span {
+    color: #EF952B;
+}
+
+.escritorio article {
+    width: 40%;
+}
+
+.escritorio article ul li {
+    font-size: 1.3em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #fff;
+    list-style-image: url(../imagens/square-check-solid.svg);
+}
+
+.escritorio article ul p {
+    color: #c4c4c4;
+    margin: 1em 0 3em 1em;
+}
+
+div.card-escritorio {
+    width: 25em;
+    height: 12em;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+div.card-escritorio span:first-child {
+    font-size: 4em;
+    font-weight: 900;
+    color: #EF952B;
+}
+
+div.card-escritorio span:last-child {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+/*****************************************/
+
+
+
+
+
+
 
 
 
@@ -178,16 +240,14 @@ article.cards-ajuda  p {
         font-size: 1em;
         padding: 0.8em  2em;
     }
-
-
     
-.ajuda h2 {
-    font-size: 1.8em;
-}
+    .ajuda h2 {
+        font-size: 1.6em;
+    }
 
-.ajuda p {
-    width: 90%;
-}
+    .ajuda p {
+        width: 90%;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -213,7 +273,6 @@ article.cards-ajuda  p {
         width: 90%;
     }
 }
-    
     /* Larde devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     
