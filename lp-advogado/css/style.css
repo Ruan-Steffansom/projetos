@@ -257,6 +257,11 @@ div.card-escritorio span:last-child {
         padding: 5em  1.3em;
     }
     
+    .escritorio article ul li {
+        font-size: 1.1em;
+        letter-spacing: 0.5px;
+    }
+    
     .escritorio h2 {
         font-size: 1.6em;
     }
