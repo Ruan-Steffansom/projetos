@@ -145,7 +145,6 @@ article.cards-ajuda  p {
 /* inicio seção escritório*/
 section.escritorio {
     width: 100%;
-    height: 57em;
     background: #000000b9 url(../imagens/aperto-mao.jpg) no-repeat center center fixed;
     background-size: cover;
     background-blend-mode: darken;
@@ -183,7 +182,7 @@ section.escritorio {
 
 div.card-escritorio {
     width: 25em;
-    height: 12em;
+    height: 12em; 
     background: #ffffff;
     border-radius: 10px;
 }
@@ -240,12 +239,30 @@ div.card-escritorio span:last-child {
         padding: 0.8em  2em;
     }
     
+/* inicio seção ajuda*/
+    section.ajuda {
+        padding: 4em 1.3em;
+    }
+
     .ajuda h2 {
         font-size: 1.6em;
     }
 
     .ajuda p {
         width: 90%;
+    }
+
+/* inicio seção escritório*/
+    section.escritorio {
+        padding: 5em  1.3em;
+    }
+    
+    .escritorio h2 {
+        font-size: 1.6em;
+    }
+    
+    div.card-escritorio {
+        width: 21.6em;
     }
 }
 
@@ -271,6 +288,8 @@ div.card-escritorio span:last-child {
     .ajuda p {
         width: 90%;
     }
+
+    
 }
     /* Larde devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
