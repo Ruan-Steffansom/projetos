@@ -331,11 +331,6 @@ footer.rodape span a:hover{
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98PX) {
-
-    .texto-home {
-        text-align: center;
-    }
-
     a.logo {
         font-size: 1.2em;
     }
@@ -347,7 +342,7 @@ footer.rodape span a:hover{
     }
     
     .texto-home p {
-        font-size: 1.05em;
+        font-size: 1em;
         width: 95%;
     }
     
