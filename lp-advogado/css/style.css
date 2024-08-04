@@ -246,22 +246,62 @@ article.mapa iframe {
 
 /* inicio seção final*/
 section.final {
-    background: #18181818 url(../imagens/foto-advogado.jpg) no-repeat center center;
+    background: #18181818 url(../imagens/fundo-final-desk.webp) no-repeat center top;
     background-size: cover;
     background-blend-mode: darken;
     width: 100%;
-    height: 100dvh;
+    padding: 7em 0;
 }
 
 div.texto-final {
     width: 45%;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.637) 60%, rgba(0, 0, 0, 0.315) 100%);
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    padding: 2em 2em ;
 }
 
 .texto-final h2 {
-    font-size: 1.5em;
+    font-size: 1.8em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 1.7em;
     color: #ffffff;
+}
 
+.texto-final P {
+    color: #e9e9e9;
+    font-weight: 500;
+}
 
+span.redes-sociais a i {
+    font-size: 2em;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+span.redes-sociais a i:hover {
+    color: #cf7712;
+    text-shadow: 0px 0px 12px #d10c0c;
+}
+
+footer.rodape {
+    background: #042C3A;
+    color: #ffffff;
+    padding: 1em 24em;
+    font-weight: 500;
+}
+
+footer.rodape span a{
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+footer.rodape span a:hover{
+    font-size: larger;
+    color: #cf7712;
+    text-shadow: 0px 0px 12px #d10c0c;
+    text-decoration: none;
 }
 
 /**************************************/
@@ -289,8 +329,8 @@ div.texto-final {
     }
     
     .texto-home h1 {
-        width: 97%;
-        font-size: 1.8em;
+        width: 98%;
+        font-size: 1.6em;
         margin: 2em 0 0.5em;
     }
     
@@ -343,6 +383,34 @@ div.texto-final {
         width:80%;
         font-size: 1em;
     }
+    
+    /* inicio seção final*/
+    section.final {
+        background: #18181818 url(../imagens/fundo-final-mobile02.webp) no-repeat center bottom;
+        background-size: cover;
+        background-blend-mode: darken;
+        padding: 3em 0 29em 0;
+    }
+
+    div.texto-final {
+        width: 95%;
+        margin: auto;
+    }
+
+    .texto-final h2 {
+        font-size: 1.5em;
+    }
+
+    .texto-final p {
+        font-size: 0.8em;
+    }
+
+    footer.rodape {
+        line-height: 2em;
+        padding: 1em;
+        font-weight: 500;
+        font-size: 0.7em;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -372,6 +440,45 @@ div.texto-final {
         width:45%;
         font-size: 1.2em;
     }
+
+    /* inicio seção final*/
+    section.final {
+        background: #18181818 url(../imagens/fundo-final-desk.webp) no-repeat center top;
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+
+    div.texto-final {
+        width: 58%;
+    }
+
+    .texto-final h2 {
+        font-size: 1.8em;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 1.7em;
+        color: #ffffff;
+    }
+
+    footer.rodape {
+        line-height: 2em;
+        padding: 1em;
+        font-weight: 500;
+    }
+
+    footer.rodape span a{
+        color: #ffffff;
+        transition: 0.5s;
+    }
+
+    footer.rodape span a:hover{
+        font-size: larger;
+        text-shadow: 0px 0px 12px #d10c0c;
+        text-decoration: none;
+    }
+
+    /**************************************/
+
 }
     /* Larde devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
