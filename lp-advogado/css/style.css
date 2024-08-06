@@ -71,8 +71,9 @@ a.logo:hover {
 
 a.botao-contato {
     color: #ffffff;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 700;
+    letter-spacing: 0.08em;
     background: #EF952B;
     padding: 1em  3em;
     border-radius: 7px;
@@ -142,7 +143,7 @@ article.cards-ajuda  p {
 /*****************************************/
 
 
-/* inicio seção escritório*/
+/* inicio seção sj*/
 section.escritorio {
     width: 100%;
     background: #000000b9 url(../imagens/aperto-mao.webp) no-repeat center center fixed;
@@ -220,7 +221,7 @@ section.localizacao {
     font-weight: 900;
 }
 
-.localizacao p {
+.localizacao p.endereco {
     width:30%;
     font-size: 1.3em;
     font-weight: 600;
@@ -229,12 +230,13 @@ section.localizacao {
     color: #141414;
     border: 2px solid rgba(0, 0, 0, 0.055);
     border-radius: 7px;
-    margin: 0.8em 0 3em 0;
+    margin: 0.8em 0 2.5em 0;
     padding: 1em;
 }
 
 article.mapa {
     width: 100%;
+    margin-bottom: 2.5em;
 }
 
 article.mapa iframe {
@@ -383,11 +385,12 @@ footer.rodape span a:hover{
         width: 21.6em;
     }
 
+    /*Localização*/
     .localizacao h2 {
         font-size: 1.8em;
     }
 
-    .localizacao p {
+    .localizacao p.endereco {
         width:80%;
         font-size: 1em;
     }
@@ -443,9 +446,9 @@ footer.rodape span a:hover{
     .ajuda p {
         width: 90%;
     }
-
-    .localizacao p {
-        width:45%;
+    
+    .localizacao p.endereco {
+        width: 50%;
         font-size: 1.2em;
     }
 
