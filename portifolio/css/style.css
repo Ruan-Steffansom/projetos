@@ -43,17 +43,32 @@ header#home {
     line-height: 0.9em;
     font-family: 'popins';
     font-weight: 500;
-    font-size: 8em;
+    font-size: 8.3em;
     color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0.126);
     -webkit-text-stroke: 1.5px #ffffffef;
 }
 
+.titulo-ruan {
+    margin-bottom: -0.190em;
+} 
+
+.titulo-carlo {
+    margin-left: 2.65em;
+    margin-top: -0.7em !important;
+} 
+
 .titulo span {
-    font-size: 1.8em;
-    letter-spacing: 2px;
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+    margin-left: 5px;
+    margin-top: -6em;
     filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+}
+
+.redes_sociais {
+    margin-left: 9.8em !important;
 }
 
 .redes_sociais a i {
@@ -257,18 +272,30 @@ section.area_habilidades .row {
     }
 
     .titulo h1 {
-        font-size: 3.7em;
-        line-height: 60px;
+        font-size: 4em;
     }
+        
+    .titulo-ruan {
+        margin-bottom: -0.4em;
+    } 
 
+    .titulo-carlo {
+        margin-top: -0.8em !important;
+    } 
+    
     .titulo span {
-        font-size: 1.2em;
+        font-size: 1em;
+    }
+    
+    .redes_sociais {
+        margin-left: 0.7em !important;
     }
     
     .redes_sociais a i {
-        font-size: 1.5em;
+        font-size: 1.4em;
+        margin-left: 0.5em !important;
     }
-    
+
     section.sobre h2 {
         text-align: left;
         padding: 0 ;
@@ -307,6 +334,22 @@ section.area_habilidades .row {
 
     .titulo h1 {
         font-size: 7em;
+    }
+    
+    .titulo-ruan {
+        margin-bottom: -0.190em;
+    } 
+
+    .titulo-carlo {
+        margin-top: -0.8em !important;
+    } 
+
+    .titulo span {
+        font-size: 1.125em;
+    }
+
+    .redes_sociais {
+        margin-left: 6.9em !important;
     }
     
     section.sobre article img {
