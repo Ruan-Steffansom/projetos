@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+section#home {
+    height: 100vh;
+    background-image:url(../imagens/bg-home.png);
+}
+
+header {
+    border: 1px solid red;
+    width: 150px;
+    padding: 20px 0;
+}
+
+.navegacao ul li a {
+    color: #fff;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+.navegacao ul li a:hover {
+    color: #04CA00;
+}
+
+.navegacao ul li a.botao-menu {
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 6px;
+    margin-left: 50px;
+    transition: 0.9s;
+    background-image: linear-gradient(170deg, #04CA00 40%, #0b9409 70%);
+}
+
+.navegacao ul li a.botao-menu:hover {
+    background-image: linear-gradient(170deg, #0b9409, #04CA00 );
+}
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98PX) {
+    
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+/* Medium devices (tablets, 768px an up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    
+}
+    
+    /* Larde devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (larde desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
