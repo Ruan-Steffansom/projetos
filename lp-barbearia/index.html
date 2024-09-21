@@ -19,34 +19,67 @@
     <body>
     
         <section id="home"><!-- inicio secao home-->
-            <header class="container d-flex d-flex justify-content-between align-items-center"><!-- inicio header-->
-                <img src="imagens/logo.webp" alt=" logo barber shop" width="90" height="80">
+            <header class="container-fluid"><!-- inicio header-->
+                
+                <nav class="container navbar navbar-expand-md d-flex d-flex justify-content-between align-items-center"><!--inicio navegacao-->
 
-                <div class="navegacao">
-                    <ul class="nav" style="border: 1px solid red;">
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Barbeiros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Unidades</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link botao-menu" href="">Solicitar horário</a>
-                        </li>
-                    </ul>
-                </div>
+                    <!--Logo-->
+                    <a class="navbar-brand" href="#">
+                        <img src="imagens/logo.webp" alt=" logo barber shop" width="70" height="62.35" class="img-fluid">
+                    </a>
+
+                    <!--Menu Hamburguer-->
+                    <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#nav-principal">
+                        <i class="fas fa-bars text-white"></i>
+                    </button>
+
+                    <!--Navegação-->
+                    <div class="collapse navbar-collapse" id="nav-principal">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Serviços</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Barbeiros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Unidades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link botao-menu"href="">Solicitar horário</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav><!--/fim navegacao-->
             </header><!-- /fim header-->
-            <button>CURTIR</button>
+
+            <div class="texto container d-flex flex-column align-items-center">
+                <h1>Estilo e um reflexo da sua atitude e sua personalidade</h1>
+                <p>Horário de funcionamento das 9h ás 19h</p>
+                <a class="botao" href="#">Solicitar horário</a>
+            </div>
         </section><!-- /fim secao home-->
+
+        <section class="sobre">
+            <div class="contrainer d-flex justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center pr-2">
+                    <img src="imagens/imagens_sobre.webp" alt="" width="450" height="450" class="img-fluid">
+                </div>
+
+                <div class="texto-sobre d-flex flex-column pl-5">
+                    <h2>Sobre</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters. as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'.</p>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it.</p>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters. as opposed to using 'Content here, content here'.</p>
+                </div>
+            </div>
+        </section>
 
 
 

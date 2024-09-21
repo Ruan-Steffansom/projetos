@@ -3,46 +3,139 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+:root {
+    --Kd2: "K2D", sans-serif;
+    --Sora: "Sora", sans-serif;
+}
+
+
+
 html, body {
     overflow-x: hidden;
     scroll-behavior: smooth;
+    font-family: var(--Sora);
 }
 
 section#home {
     height: 100vh;
-    background-image:url(../imagens/bg-home.png);
+    background:url(../imagens/bg-home.png) no-repeat top center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header {
-    border: 1px solid red;
     width: 150px;
     padding: 20px 0;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background: #04002048;
+    position: fixed;
+    top: 0;
+    left: 0;
+
 }
 
-.navegacao ul li a {
+header div.navegacao img {
+    filter: drop-shadow(0px 0px 20px #3d2e9daf);
+}
+
+nav ul li a {
     color: #fff;
+    font-size: 16px;
     font-weight: 400;
     transition: 0.5s;
 }
 
-.navegacao ul li a:hover {
+nav ul li a:hover {
     color: #04CA00;
 }
 
-.navegacao ul li a.botao-menu {
-    color: #000;
+a.botao {
+    color: #000 !important;
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 700 !important;
+    text-decoration: none;
     padding: 10px 40px;
     border-radius: 6px;
-    margin-left: 50px;
-    transition: 0.9s;
     background-image: linear-gradient(170deg, #04CA00 40%, #0b9409 70%);
 }
 
-.navegacao ul li a.botao-menu:hover {
-    background-image: linear-gradient(170deg, #0b9409, #04CA00 );
+a.botao-menu {
+    color: #000 !important;
+    font-size: 1.1em;
+    font-weight: 700 !important;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin-left: 50px;
+    border-radius: 6px;
+    background-image: linear-gradient(170deg, #04CA00 40%, #0b9409 70%);
 }
+
+a.botao:hover, a.botao-menu:hover {
+    background-image: linear-gradient(170deg, #0b9409, #04CA00 );
+    transition: 1.5s ease;
+    transform: scale(1.2);
+}
+
+div.texto h1 {
+    color: #fff;
+    font-size: 55px;
+    text-align: center;
+    font-family: var(--Kd2);
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+div.texto p { 
+    color: #E8E3E3;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px 0 40px 0;
+    border-bottom: 1.8px solid transparent;
+    border-image: linear-gradient(to right, transparent 5%, #E8E3E3 50%, transparent 95% );
+    border-image-slice: 1;
+}
+
+section.sobre {
+    height: 700px;
+    margin-top: -6px;
+    padding: 8em 0;
+    background: url(../imagens/bg_sobre_dektop1.webp)no-repeat top center;
+    background-size: cover;
+}
+
+div.texto-sobre  {
+    margin-left: 100px !important;
+}
+
+.sobre h2 {
+    width: 260px;
+    color: #fff;
+    font-family: var(--Kd2);
+    font-size: 40px;
+    margin-bottom: 25px;
+    border-bottom: 1.8px solid transparent;
+    border-image: linear-gradient(to right,#3C2E9E 50%, transparent 95% );
+    border-image-slice: 1;
+}
+
+.sobre p {
+    color: #E8E3E3;;
+    font-size: 16px;
+    width: 500px;
+}
+
 
 
 
@@ -51,13 +144,39 @@ header {
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98PX) {
+    div.texto h1 {
+        font-size: 35px;
+    }
+
+    div.texto p {
+        font-size: 14px;
+    }
+
+    nav div ul {
+        margin-top: 30px;
+        align-items: center;
+    }
     
-    
+    a.botao-menu {
+        margin-left: 0;
+        margin-top: 30px;
+        padding: 10px 40px !important;
+    }
 }
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    nav div ul {
+        margin-top: 30px;
+        align-items: center;
+    }
     
+    a.botao-menu {
+        margin-left: 0;
+        margin-top: 30px;
+        padding: 10px 40px !important;
+    }
 }
 
 /* Medium devices (tablets, 768px an up) */
