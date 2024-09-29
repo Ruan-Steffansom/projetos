@@ -25,7 +25,7 @@ html, body {
 
 section#home {
     height: 100vh;
-    background:url(../imagens/bg-home.png) no-repeat top center fixed;
+    background:url(../imagens/bg-home.png) no-repeat top center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,10 @@ section#home {
 
 header {
     width: 150px;
-    padding: 20px 0;
+    padding: 10px 0;
+    border-bottom: 1.8px solid transparent;
+    border-image: linear-gradient(to right, transparent 5%, #3700ff62 50%, transparent 95% );
+    border-image-slice: 1;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     background: #04002048;
@@ -75,7 +78,7 @@ a.botao-menu {
     font-size: 1.1em;
     font-weight: 700 !important;
     text-decoration: none;
-    padding: 10px 40px;
+    padding: 10px 40px !important;
     margin-left: 50px;
     border-radius: 6px;
     background-image: linear-gradient(170deg, #04CA00 40%, #0b9409 70%);
@@ -84,7 +87,7 @@ a.botao-menu {
 a.botao:hover, a.botao-menu:hover {
     background-image: linear-gradient(170deg, #0b9409, #04CA00 );
     transition: 1.5s ease;
-    transform: scale(1.2);
+    transform: scale(1.125);
 }
 
 div.texto h1 {
@@ -107,11 +110,14 @@ div.texto p {
     border-image-slice: 1;
 }
 
+
+
+/*SESSÃO SOBRE*/
+
 section.sobre {
     height: 700px;
-    margin-top: -6px;
     padding: 8em 0;
-    background: url(../imagens/bg_sobre_dektop1.webp)no-repeat top center;
+    background: url(../imagens/bg_sobre_dektop1.webp)no-repeat center center;
     background-size: cover;
 }
 
@@ -136,7 +142,15 @@ div.texto-sobre  {
     width: 500px;
 }
 
+.sobre div.icons-redes-sociais a img{
+    width: 70px;
+}
 
+
+.sobre div.icons-redes-sociais a img:hover {
+    transition: 1.5s ease;
+    transform: scale(1.200);
+}
 
 
 
@@ -162,6 +176,10 @@ div.texto-sobre  {
         margin-top: 30px;
         padding: 10px 40px !important;
     }
+
+    section.sobre {
+        margin-top: -290px;
+    }
 }
 
 
@@ -181,7 +199,9 @@ div.texto-sobre  {
 
 /* Medium devices (tablets, 768px an up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-
+    section.sobre {
+        margin-top: -168px;
+    }
     
 }
     
