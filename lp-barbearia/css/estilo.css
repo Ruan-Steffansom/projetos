@@ -21,6 +21,7 @@ html, body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: var(--Sora);
+    height: 100vh;
 }
 
 section#home {
@@ -116,8 +117,8 @@ div.texto p {
 
 section.sobre {
     height: 700px;
-    padding: 8em 0;
-    background: url(../imagens/bg_sobre_dektop1.webp)no-repeat center center;
+    padding: 8em 0 40em 0;
+    background: url(../imagens/bg_sobre.webp)no-repeat center center;
     background-size: cover;
 }
 
@@ -151,6 +152,36 @@ div.texto-sobre  {
     transition: 1.5s ease;
     transform: scale(1.200);
 }
+
+
+
+/*SERVICOS*/
+
+section.servicos {
+    background: #3C2E9E url(../imagens/bg_servicos.webp) no-repeat center center;
+    background-size: cover;
+    height: 845px;
+    padding: 6em 0 ;
+}
+
+.servicos h2 {
+    width: 400px;
+    color: #fff;
+    text-align: center;
+    font-family: var(--Kd2);
+    font-size: 40px;
+    border-bottom: 1.8px solid transparent;
+    border-image: linear-gradient(to right,  transparent 5%, #3C2E9E 50%, transparent 95% );
+    border-image-slice: 1;
+}
+
+.servicos p {
+    color: #fff;
+    text-align: center;
+    width: 800px;
+    margin: 31px 0 80px 0;
+}
+
 
 
 
