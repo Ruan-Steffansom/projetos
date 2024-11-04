@@ -189,6 +189,26 @@ section.servicos {
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98PX) {
+    section#home {
+        background:url(../imagens/bg_home_mobile.webp) no-repeat top center;
+        background-size: cover;
+        
+    }
+    
+    header {
+        height: 80px;
+    }
+    
+    a img.logo {
+        width: 50px;
+        margin-top: -6px;
+    }
+    
+    i.hamburguer {
+        font-size: 30px;
+        margin-top: -6px;
+    }
+    
     div.texto h1 {
         font-size: 35px;
     }
@@ -208,9 +228,8 @@ section.servicos {
         padding: 10px 40px !important;
     }
 
-    section.sobre {
-        margin-top: -290px;
-    }
+    /*SOBRE*/
+    
 }
 
 
